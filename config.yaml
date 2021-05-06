@@ -1,0 +1,8 @@
+---
+baseURL: "http://~billb"
+languageCode: "en-us"
+title: "Bills Hugo Testing Site"
+theme: "Hugo-Octopress"
+
+Params.style.vars:
+    highlightColor: "#0B6EEF"
