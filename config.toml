@@ -1,0 +1,29 @@
+#baseURL =  "https://abbourne.github.io/quickstart/"
+#canonifyURLs = false
+#disablePathToLowerm = false
+
+relativeURLs = true
+languageCode = "en-us"
+title = "Bills Hugo Testing Site"
+theme = "mainroad"
+
+[Params]
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.style.vars]
+  highlightColor = "#0185C1" # Override highlight color
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  facebook = "abbourne"
+  linkedin = "williambourne"
+  github = "abbourne"
+  email = "wbbourne@gmail.com"
+
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist", "social"]
