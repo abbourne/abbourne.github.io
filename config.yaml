@@ -5,7 +5,7 @@ relativeURLs: true
 #disablePathToLower: false
 languageCode: "en-us"
 title: "Bills Hugo Testing Site"
-theme: "mainroad"
+theme: "Hugo-Octopress"
 
 Params.style.vars:
   highlightColor: "#0B6EEF"
