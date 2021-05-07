@@ -1,5 +1,5 @@
 [submodule "mainroad"]
-	path = mainroad
+	path = themes/mainroad
 	url = https://github.com/vimux/mainroad
 [submodule "themes/docsy"]
 	path = themes/docsy
