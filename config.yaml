@@ -1,5 +1,5 @@
 ---
-baseURL: "http://~billb"
+# baseURL: "http://~billb"
 languageCode: "en-us"
 title: "Bills Hugo Testing Site"
 theme: "Hugo-Octopress"
