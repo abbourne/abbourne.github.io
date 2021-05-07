@@ -1,5 +1,8 @@
 ---
-baseURL: "https://abbourne.github.io/quickstart/"
+#baseURL: "https://abbourne.github.io/quickstart/"
+relativeURLs: true
+#canonifyURLs: false
+#disablePathToLower: false
 languageCode: "en-us"
 title: "Bills Hugo Testing Site"
 theme: "mainroad"
