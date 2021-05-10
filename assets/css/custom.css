@@ -1,0 +1,263 @@
+/* Custom CSS File */ 
+{{- $highlightColor := site.Params.style.vars.highlightColor | default (site.Params.highlightColor | default "#e22d30") -}}
+{{- $primaryColor := site.Params.style.vars.primaryColor | default "#0185C1" -}}
+{{- $secondaryColor := site.Params.style.vars.secondaryColor | default "#FEEF4D" -}}
+{{- $neutralColor := site.Params.style.vars.neutralColor | default "#999" -}}
+
+{{- $fontSans := `"Open Sans", Helvetica, Arial, sans-serif` -}}
+{{- $fontSerif := `"Iowan Old Style", "Book Antiqua", "Palatino Linotype", Palatino, "URW Palladio L", "Georgia", "Times New Roman", serif;` -}}
+{{- $fontMono := `SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` -}}
+
+{{- $fontFamilySerif := site.Params.style.vars.fontFamilySerif | default $fontSerif -}}
+{{- $fontFamilySans := site.Params.style.vars.fontFamilySans | default $fontSans -}}
+{{- $fontFamilySans := site.Params.style.vars.fontFamilySans | default $fontSans -}}
+{{- $fontFamilyMono := site.Params.style.vars.fontFamilyMono | default $fontMono -}}
+
+.container--outer {
+	margin: 10px auto;
+	box-shadow: 0 0 10px rgba(23, 88, 172, 0.329);
+}
+
+{{/* MOD Make body type serif fonts */}}
+body {
+	margin: 0;
+	font-family: {{ $fontFamilySerif }};
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.4;
+	word-wrap: break-word;
+	background: #f7f7f7;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 28px;
+	font-size: 1.8rem;
+}
+
+
+{{/* MOD Narrower sidebar */}}
+.wrapper {
+	padding: 20px;
+	background: #fff;
+}
+
+.primary {
+	-webkit-flex: 1 0 75%;
+	flex: 1 0 75%;
+	-webkit-order: 1;
+	order: 1;
+	min-width: 0;
+}
+.sidebar {
+	-webkit-flex: 1 0 25%;
+	flex: 1 0 25%;
+	-webkit-order: 2;
+	order: 2;
+	min-width: 0;
+	margin: 0 0 0 2.5%;
+}
+
+/* Button */
+{{/* MOD Colours */}}
+.btn:hover {
+	color: #fff;
+	background: {{ $highlightColor }};
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #000;
+	font-family: {{ $fontFamilySans }};
+
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: {{ $highlightColor }};
+}
+
+/* Header */
+.header {
+	background: {{ $primaryColor }};
+	color: {{ $secondaryColor }};
+}
+
+.logo__title {
+	font-size: 28px;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1;
+	color: {{ $secondaryColor }};
+}
+
+.logo__tagline {
+	display: inline-block;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-size: .875rem;
+	font-weight: 700;
+	line-height: 1;
+	color: {{ $secondaryColor }};
+	border-top: 1px solid {{ $secondaryColor }};
+}
+
+.logo {
+	padding: 14px;
+    padding-bottom: 10px;
+}
+
+
+/* Main menu */
+.no-js .menu__btn {
+	display: none;
+}
+
+.menu__btn {
+	display: block;
+	width: 100%;
+	padding: 0;
+	font: inherit;
+	color: #fff;
+	background: {{ $primaryColor }};
+	border: 0;
+	outline: 0;
+}
+
+.menu__btn-title {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	padding: .625rem .9375rem;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+:focus > .menu__btn-title {
+	box-shadow: inset 0 0 1px 3px {{ $neutralColor }};
+}
+
+button:not(:-moz-focusring):focus > .menu__btn-title {
+	box-shadow: none;
+}
+
+.menu__btn:focus,
+.menu__btn-title:focus {
+	outline: 0;
+}
+
+.js .menu__btn--active {
+	color: {{ $neutralColor }};
+}
+
+.menu__list {
+	list-style: none;
+	background: {{ $primaryColor }};
+}
+
+.menu__item:hover {
+	background: {{ $neutralColor }};
+}
+
+.menu__item:first-child {
+	border: 0;
+}
+
+.menu__item--active {
+	background: {{ $neutralColor }};
+}
+
+.menu__link {
+	display: block;
+	padding: 10px 15px;
+	padding: .625rem .9375rem;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu__link:hover {
+	color: #fff;
+}
+
+.js .menu__list {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	visibility: hidden;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: top left;
+	transform-origin: top left;
+}
+
+.js .menu__list--active {
+	visibility: visible;
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+
+.menu__list--transition {
+	transition: visibility .15s ease, transform .15s ease, -webkit-transform .15s ease;
+}
+
+@media screen and (min-width: 767px) {
+	.menu {
+		border-bottom: 1px solid {{ $highlightColor }};
+	}
+
+	.menu__btn {
+		display: none;
+	}
+
+	.menu__list,
+	.js .menu__list {
+		position: relative;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		visibility: visible;
+		border: 0;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	.menu__item {
+		border-left: 1px solid rgba(255, 255, 255, .1);
+	}
+}
+
+
+/* Footer */
+.footer {
+	padding: 10px 25px;
+	font-size: 12px;
+	font-size: .75rem;
+	color: {{ $secondaryColor }};
+	background: {{ $primaryColor }};
+	border-top: 3px solid {{ $neutralColor }};
+}
+

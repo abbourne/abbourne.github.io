@@ -1,9 +1,14 @@
 {{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
 
 {{- $fontSans := `"Open Sans", Helvetica, Arial, sans-serif` -}}
+{{- $fontSerif := `"Iowan Old Style", "Book Antiqua", "Palatino Linotype", Palatino, "URW Palladio L", "Georgia", "Times New Roman", serif;` -}}
 {{- $fontMono := `SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` -}}
-{{- $fontFamilyPrimary := .Site.Params.style.vars.fontFamilyPrimary | default $fontSans -}}
+
 {{- $fontFamilySecondary := .Site.Params.style.vars.fontFamilySecondary | default $fontMono -}}
+{{- $fontFamilySerif := .Site.Params.style.vars.fontFamilySerif | default $fontSerif -}}
+{{- $fontFamilySans := .Site.Params.style.vars.fontFamilySans | default $fontSans -}}
+{{- $fontFamilySans := .Site.Params.style.vars.fontFamilySans | default $fontSans -}}
+{{- $fontFamilyMono := .Site.Params.style.vars.fontFamilyMono | default $fontMono -}}
 
 *,
 *::before,
@@ -50,9 +55,9 @@ html {
 
 body {
 	margin: 0;
-	font-family: {{ $fontFamilyPrimary }};
-	font-size: 14px;
-	font-size: .875rem;
+	font-family: {{ $fontFamilySerif }};
+	font-size: 16px;
+	font-size: 1rem;
 	line-height: 1.6;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -68,11 +73,11 @@ body {
 
 .container--outer {
 	margin: 25px auto;
-	box-shadow: 0 0 10px rgba(50, 50, 50, .17);
+	box-shadow: 0 0 10px rgba(50, 50, 50, .5);
 }
 
 .wrapper {
-	padding: 25px;
+	padding: 20px;
 	background: #fff;
 }
 
@@ -162,6 +167,8 @@ h6 {
 	font-weight: 700;
 	line-height: 1.3;
 	color: #000;
+	font-family: {{ $fontFamilySans }};
+
 }
 
 h1 {
@@ -261,7 +268,7 @@ pre,
 code,
 kbd,
 samp {
-	font-family: {{ $fontFamilySecondary }};
+	font-family: {{ $fontFamilyMono }};
 	font-size: inherit;
 }
 
@@ -345,7 +352,7 @@ q {
 address {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
-	font-family: "Consolas", Courier New, Courier, monospace;
+	font-family: {{ $fontFamilyMono }};
 	line-height: 1.5;
 }
 

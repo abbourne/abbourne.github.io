@@ -1,5 +1,6 @@
 # Site Setup Information
 
+* [Theme Home](https://github.com/vimux/mainroad/)
 * Main menu: Blog, About Me, Notebooks: Cycling, Tech, Musings, Cheatsheet
 * Sidebar:  Search,  Recent Posts, Categories, Tags,“short bio?”, Social: {LinkedIn, Facebook,email}, Collections, Recent Posts, I’m Following
 * Categories: Cycling, Technology, Musings
