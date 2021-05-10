@@ -5,7 +5,7 @@
 relativeURLs = true
 languageCode = "en-us"
 title = "Bills Hugo Testing Site"
-theme = "mainroad"
+theme = "mainroad2" # Mainroad2 is my customized version...
 
 [Params]
   customCSS = ["css/custom.css"] # Include custom CSS files
