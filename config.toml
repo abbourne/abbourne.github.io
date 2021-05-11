@@ -8,6 +8,10 @@ title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version...
 paginate = "10" # Number of posts per page
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe= true
+
 [Params]
   customCSS = ["css/custom.css"] # Include custom CSS files
   mainSections = ["blog", "pages"]
@@ -44,11 +48,7 @@ paginate = "10" # Number of posts per page
   linkedin = "williambourne"
   github = "abbourne"
   email = "wbbourne@gmail.com"
-
-[[Params.widgets.social.custom]]
-  title = "Strava"
-  url = "https://www.strava.com/athletes/123225"
-  icon = "svg/strava.svg"
+  strava = "athletes/123225"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
