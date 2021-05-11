@@ -246,3 +246,183 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	border-top: 3px solid #999;
 }
 
+/* Social widget */
+.widget-social__item {
+	display: inline-block;
+	padding: 0;
+	border: 0;
+}
+
+.widget-social__link {
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	white-space: normal;
+}
+
+.widget-social__link-icon {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	fill: #fff;
+}
+
+.widget-social__link-button {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+/* Social Share Buttons */
+
+.social-share {
+	position: relative;
+	top: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	margin: 0px 5px 10px 0px;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.share-btn:hover {
+	color: #ffffff !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+ 
+.share-btn.twitter     { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook    { background: #3B5998; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.pinterest   { background: #BD081C; }
+.share-btn.reddit      { background: #ff5700; }
+.share-btn.email       { background: #444444; }
+.share-btn.gmail       { background: #F0F0EC; }
+.share-btn.whatsapp    { background: #25d366; }
+.share-btn.github      { background: #211F1F; }
+.share-btn.home        { background: #ebc334; }
+.share-btn.strava      { background: #f09433; }
+
+.share-btn.instagram   { background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+	}
+
+.share-btn.twitter:hover     { background: #4c9ad6; }
+.share-btn.google-plus:hover { background: #c64333; }
+.share-btn.facebook:hover    { background: #2f4779; }
+.share-btn.linkedin:hover    { background: #4069a2; }
+.share-btn.stumbleupon:hover { background: #d3401f; }
+.share-btn.pinterest:hover   { background: #AD0000; }
+.share-btn.reddit:hover      { background: #e54e00; }
+.share-btn.email:hover       { background: #363636; }
+.share-btn.strava:hover      { background: #4c9ad6; }
+
+/* Thumbnail Styling */
+/*
+.post__thumbnail {
+	max-width: 48px;
+	margin: 0 0 20px;
+	margin-bottom: 0 0 1.25rem;
+}
+*/
+.post__thumbnail {
+	height: 48px;
+	width: 48px;
+/*	height: 2.3rem;
+	width: 2.3rem; */
+	float: left;
+	margin-right: 10px;
+}
+
+
+.post__thumbnail img {
+	width: 100%;
+}
+
+.list__thumbnail {
+	float: left;
+	max-width: 48px;
+	margin: 0 20px 0 0;
+}
+
+.list__thumbnail img {
+	width: 100%;
+	max-width: 48px;
+}
+
+/* Posts/Pages */
+.post__header,
+.main__header {
+	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
+	border-bottom: 1px solid #dadada;
+}
+
+
