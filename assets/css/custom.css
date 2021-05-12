@@ -14,8 +14,8 @@
 {{- $fontFamilyMono := site.Params.style.vars.fontFamilyMono | default $fontMono -}}
 
 .container--outer {
-	margin: 10px auto;
-	box-shadow: 0 0 10px rgba(23, 88, 172, 0.329);
+	margin: 0px auto;
+	box-shadow: 0 0 0px rgba(23, 88, 172, 0.329);
 }
 
 {{/* MOD Make body type serif fonts */}}
@@ -116,11 +116,14 @@ a:hover {
 }
 
 .logo {
-	padding: 14px;
-    padding-bottom: 10px;
+	padding: 10px;
+    padding-bottom: 0px;
 }
 
-
+.logo--mixed .logo__img {
+	max-width: 100px;
+	max-height: 100px;
+}
 /* Main menu */
 .no-js .menu__btn {
 	display: none;
@@ -140,7 +143,7 @@ a:hover {
 .menu__btn-title {
 	position: relative;
 	display: block;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	padding: .625rem .9375rem;
 	font-weight: 700;
 	text-align: right;
@@ -192,6 +195,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding: 10px 15px;
 	padding: .625rem .9375rem;
 	font-weight: 700;
+	line-height: 1.0;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -225,7 +229,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 1px solid {{ $highlightColor }};
+		border-bottom: 3px solid {{ $secondaryColor }};
+		border-top: 2px solid {{ $secondaryColor }};
 	}
 
 	.menu__btn {
@@ -247,13 +252,14 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 	.menu__item {
 		border-left: 1px solid rgba(255, 255, 255, .1);
+		line-height: 1.0;
 	}
 }
 
 
 /* Footer */
 .footer {
-	padding: 10px 25px;
+	padding: 5px 25px;
 	font-size: 12px;
 	font-size: .75rem;
 	color: {{ $secondaryColor }};
@@ -410,12 +416,11 @@ ul.share-icons li > * .label {
 .post__thumbnail {
 	height: 48px;
 	width: 48px;
-/*	height: 2.3rem;
-	width: 2.3rem; */
+	height: 2.3rem;
+	width: 2.3rem; 
 	float: left;
 	margin-right: 10px;
 }
-
 
 .post__thumbnail img {
 	width: 100%;

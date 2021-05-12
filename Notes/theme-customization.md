@@ -17,6 +17,8 @@ https://imageoptim.com/howto.html - Image optimization
 
 ## Ideas from highway theme
 
+* [CodingNConcepts Site](https://codingnconcepts.com/) and [Highway Theme github](https://github.com/ashishlahoti/hugo-theme-highway)
+
 * The "social" widget and icons is quite nice... try to incorporate into mainroad2
   * Requires using widget/social.html, customizing it to add Strava support
   * Copying all the .css styling for:
