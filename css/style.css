@@ -783,7 +783,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .toc__title {
 	padding: 5px 10px;
 	color: #fff;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
