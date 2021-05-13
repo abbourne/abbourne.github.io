@@ -8,4 +8,4 @@ menu:
 
 # Cycling Safety and Education
 
-This is an in-progress series of articles I'm writing for the KNBC.
+When I got back into cycling in 2015, I [Kanata Nepean Bicycle Club](https://knbc.ca/)
