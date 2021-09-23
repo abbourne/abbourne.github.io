@@ -445,4 +445,7 @@ ul.share-icons li > * .label {
 	border-bottom: 1px solid #dadada;
 }
 
-
+/* Math Blocks */
+.mathBlock {
+	text-align: center;
+}

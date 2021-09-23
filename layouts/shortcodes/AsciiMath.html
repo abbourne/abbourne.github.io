@@ -1,0 +1,4 @@
+<figure class="mathBlock">
+  ` {{ .Get "math" }} `  {{ if isset .Params "comment" }}&nbsp;{{.Get "comment"}}{{ end }}
+  {{ if isset .Params "caption" }}<figcaption>{{.Get "caption"}}</figcaption>{{ end }}
+</figure>
