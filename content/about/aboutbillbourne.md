@@ -4,9 +4,9 @@ date: 2013-07-02
 description: All about who I am and what I do
 menu:
   main:
-    name: About Bill
+    name: About
     identifier: about
-    weight: 1
+    weight: 20
 draft: false
 authorbox: false
 ---

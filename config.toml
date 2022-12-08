@@ -8,6 +8,13 @@ title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version...
 paginate = "10" # Number of posts per page
 enableEmoji = true
+#disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Bill Bourne"
+  bio = "Bill Bourne is a cyclist."
+  avatar = "img/avatar.png"
 
 [markup]
   [markup.goldmark]
@@ -21,6 +28,8 @@ enableEmoji = true
     noClasses = true  # Creates styling inline, otherwise inserts css classes
 
 [Params]
+  description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
+  #copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   customCSS = ["css/custom.css"] # Include custom CSS files
   mainSections = ["blog", "pages"]
   opengraph = true
@@ -44,7 +53,7 @@ enableEmoji = true
   #fontFamilyMono - override mono (code, etc) fonts in my custom css (serif)
 
 [Params.logo]
-  subtitle = "Bill Bourne's Ramblings"
+  subtitle = "Bill Bourne's Blog"
   image = "img/bicycle-round-yellow.png"
 
 [Params.widgets]
@@ -56,13 +65,19 @@ enableEmoji = true
   # Enable parts of social widget
   facebook = "abbourne"
   linkedin = "williambourne"
-  github = "abbourne"
+  # github = "abbourne"
   email = "wbbourne@gmail.com"
   strava = "athletes/123225"
+
+[Params.widgets.search]
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "right"  # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist", "social"]
+  widgets = ["recent", "categories", "search", "social"]

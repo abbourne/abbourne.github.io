@@ -6,7 +6,9 @@
 	</div>
 	{{- end }}
 	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-
+	{{- range $paginator.Pages }}
+		{{- .Render "summary" }}
+	{{- end }}
 	{{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
 		<div class="warning">
 			{{ partial "svg/files.svg" (dict "class" "warning__icon") }}

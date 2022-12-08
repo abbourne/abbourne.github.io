@@ -1,11 +1,8 @@
 ---
-menu:
-  main:
-    name: Blog
-    identifier: blog
-    weight: 2
+title: Personal Thoughts
+date: 2021-09-22
+description: These posts contain musings on a range of topics
+categories:
 ---
 
-# My Blog
-
-Here are my blog posts
+These posts contain some blog posts
