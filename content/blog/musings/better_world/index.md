@@ -3,12 +3,9 @@ title: "The world is getting better"
 description: "In spite of what you might think, the world has been getting remarkably better over the past 50 years, and human instinct is to act altruistically."
 date: "2021-09-22T21:41:45-04:00"
 thumbnail: ""
-categories:
-  - "Musings"
-categories_weight: 0
+categories: ""
 tags:
   - ""
-tags_weight: 0
 draft: false
 ---
 

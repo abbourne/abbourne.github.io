@@ -3,8 +3,7 @@ title: Timeless Rules of Software Development
 date: 2021-05-05
 description: There are a few timeless rules of software development that never change
 thumbnail: "img/bicycle-round-black.png"
-categories:
-  - "Technology"
+categories: ""
 tags:
   - "Software"
 draft: false

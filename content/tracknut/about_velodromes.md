@@ -1,7 +1,7 @@
 ---
 title: "Velodrome Basics"
 date: "2016-02-24"
-image: "/graphics/Milton-Dropin-2-Header.jpg"
+image: "img/Milton-Dropin-2-Header.jpg"
 categories:
   - "Track Cycling"
 tags:

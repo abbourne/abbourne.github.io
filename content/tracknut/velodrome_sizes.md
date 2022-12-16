@@ -1,10 +1,9 @@
 ---
 title: "Sizes of Our Local Velodromes"
 date: "2016-03-05"
-categories:
-  - "Track Cycling"
+categories: ""
 tags:
-draft: false
+draft: true
 mathjax: true
 ---
 
@@ -23,3 +22,4 @@ mathjax: true
 
 * https://vimeo.com/27977724  - series of vimeo videos on physics of pursuiting.
 * http://www.kenhart.com/ - strategies for track cycling races, etc
+* [Up! Up! Up!](http://upupup.aboc.com.au/the-book) - An interesting introduction to track sprinting

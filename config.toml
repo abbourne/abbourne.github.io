@@ -2,10 +2,10 @@
 #canonifyURLs = false
 #disablePathToLowerm = false
 
-relativeURLs = true
+#relativeURLs = true
 languageCode = "en-us"
 title = "It's All Downhill From Here"
-theme = "mainroad2" # Mainroad2 is my customized version...
+theme = "mainroad2" # Mainroad2 is my customized version
 paginate = "10" # Number of posts per page
 enableEmoji = true
 #disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
@@ -35,9 +35,9 @@ enableEmoji = true
   opengraph = true
   schema = true
   twitter_cards = true
-  post_meta = ["author", "date", "categories", "tags"]
+  post_meta = ["date", "categories", "tags"]
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TTeX-MML-AM_CHTML" # Specify MathJax config
+  mathjaxConfig = "TeX-MML-AM_CHTML" # Specify MathJax config
 # mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   mathjax = true
   pager = true
@@ -80,4 +80,4 @@ enableEmoji = true
   list = "right"  # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "search", "social"]
+  widgets = ["recent", "categories", "social"]

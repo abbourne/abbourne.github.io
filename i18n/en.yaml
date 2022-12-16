@@ -55,7 +55,7 @@
 
 # Social widget
 - id: social_title
-  translation: "Find Me At"
+  translation: "Find me at"
 
 # Tags List widget
 - id: tags_title

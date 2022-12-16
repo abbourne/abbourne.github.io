@@ -1,8 +1,8 @@
 ---
 title: Personal Thoughts
-date: 2021-09-22
-description: These posts contain musings on a range of topics
+date: 2022-12-09
+description: Various uncategorized blog posts
 categories:
 ---
 
-These posts contain some blog posts
+Various uncategorized blog posts

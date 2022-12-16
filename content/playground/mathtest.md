@@ -1,5 +1,6 @@
 ---
 title: "Using ASCIIMath and MathJax"
+tags: [Markdown, Pandoc]
 mathjaxPath: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
 # mathjaxConfig: "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 mathjaxConfig: TeX-MML-AM_CHTML

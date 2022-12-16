@@ -1,5 +1,5 @@
 ---
-title: Cycling Safety and Education Blog Series
+title: Cycling Safety and Education
 date: 2021-05-14
 description: A series of articles cycling safety, skills, and equipment for experienced cyclists
 categories:
