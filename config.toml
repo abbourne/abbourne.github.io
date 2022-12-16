@@ -1,7 +1,7 @@
 #baseURL =  "https://abbourne.github.io/quickstart/"
 #canonifyURLs = false
 #disablePathToLowerm = false
-relativeURLs = true  #when set to true, it breaks the 404 page.
+#relativeURLs = true  #when set to true, it breaks the 404 page.
 languageCode = "en-us"
 
 title = "It's All Downhill From Here"
