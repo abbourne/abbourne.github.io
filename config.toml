@@ -1,9 +1,9 @@
 #baseURL =  "https://abbourne.github.io/quickstart/"
 #canonifyURLs = false
 #disablePathToLowerm = false
-
-#relativeURLs = true
+relativeURLs = true  #when set to true, it breaks the 404 page.
 languageCode = "en-us"
+
 title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version
 paginate = "10" # Number of posts per page
@@ -31,7 +31,7 @@ enableEmoji = true
   description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
   #copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   customCSS = ["css/custom.css"] # Include custom CSS files
-  mainSections = ["blog", "pages"]
+  mainSections = ["blog", "tracknut", "cyclingsafety"]  #Need to include all folders with articles I want on the main page
   opengraph = true
   schema = true
   twitter_cards = true
