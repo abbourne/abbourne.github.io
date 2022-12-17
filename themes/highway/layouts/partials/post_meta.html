@@ -1,0 +1,9 @@
+{{- if .Param "blog_post" }}
+{{- $root := . -}}
+{{- with .Param "post_meta" -}}
+	{{- range $field := . -}}
+		{{- $p := printf "post_meta/%s.html" $field -}}
+		{{- partial $p $root -}}
+	{{- end -}}
+{{- end -}}
+{{- end }}
