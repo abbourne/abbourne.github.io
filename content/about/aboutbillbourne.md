@@ -11,10 +11,12 @@ draft: false
 authorbox: false
 ---
 
+While I've not given up my love of software technology and development practices completely, I've moved from coaching software developers to coaching young cyclists. I'm a [National Coaching Certification Program (NCCP)](https://coach.ca/national-coaching-certification-program){: target="_blank"} trained coach and coach youth in the [OBC’s Youth Development Program](https://www.ottawabicycleclub.ca/index.php/youth-program). I’m a [Cycling Canada CanBike instructor](https://canbikecanada.ca/), and I teach riding skills, traffic safety, and ride leading to adults. I also volunteer, both in Ottawa and at the Mattamy National Cycling Center velodrome in Toronto. And of course, I ride... a lot! My passion is track cycling, as well as getting off the beaten path on rural gravel roads.
+
 I started programming in 1972 (Fortran, APL, assembler) Even though my university degree
 was in Electrical Engineering, my whole professional career has been software related.
 I became a manager in 1981, although I continued to write production code until 1986.
-I've tried to keep my hand in, even as I became a senior manager and a director.
+I tried to keep my hand in, even as I became a senior manager and a director.
 
 I've been a principal founder of a video games start-up, had 2 games on the Billboard top 40, and
 wrote applications for Apple and Microsoft. I've spent 20 years in the telecommunications industry developing firmware for
@@ -22,13 +24,4 @@ phones, embedded software for optical network elements, and network management s
 I've been an architect, a product manager, and held various management positions over the years, including senior manager and director level positions.
 
 I started Macintosh programming in July 1983 on a prototype 128K Mac with a Lisa "twiggy" disk drive.
-And I still love Macs... I've got a BSD-like UNIX, MacOS, and Windows all running on my MacBook Pro. It's the perfect software development machine!
-
-I'm now providing consulting on software development process and practices improvement, from requirements through verification. While much of the work involves Agile projects, I also consult to teams using other methodologies. I can help you with project inception, getting a new team or project running effectively. I also help rescue projects that have gotten into the weeds, or just want to improve some aspect of their development process. Much of my work focuses on the timeless software development practices that transcend particular methodologies: requirements specification & reviews, design reviews, code inspections, continuous integration, static analysis, designer automated testing, including TDD, and verification test automation.
-
-For more information about me:
-
-* [LinkedIn Profile](http://ca.linkedin.com/in/williambourne) - I keep a complete profile on LinkedIn
-* [Resume](Bill_Bourne_Resume.pdf) - A 3 page classic resume
-* [Consulting CV (Long)](Bill_Bourne_Consulting_CV.pdf) - This is a long form version of my CV, project-based.
-* [@abbourne](http://twitter.com/abbourne)
+And I still love Macs... I've got a BSD-like UNIX, MacOS, and Windows all running on my MacBook Pro. It's the perfect machine!

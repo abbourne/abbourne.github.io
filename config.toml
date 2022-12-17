@@ -20,8 +20,10 @@ enableEmoji = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe= true     # Allow HTML in markdown input files
-    [markup.goldmark.parser.attribute]
-      block = true
+    [markup.goldmark.parser]  
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
   [markup.highlight]
     guessSyntax = true
     style = "monokailight"
@@ -31,7 +33,7 @@ enableEmoji = true
   description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
   #copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   customCSS = ["css/custom.css"] # Include custom CSS files
-  mainSections = ["blog", "tracknut", "cyclingsafety"]  #Need to include all folders with articles I want on the main page
+  mainSections = ["blog", "tracknut", "cyclingsafety"]  ## Specify section pages to show on home page and the "Recent articles" widget
   opengraph = true
   schema = true
   twitter_cards = true
