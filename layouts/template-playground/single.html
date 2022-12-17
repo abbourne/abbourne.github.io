@@ -1,11 +1,22 @@
 <h1>Hugo Templates</h1>
+
+<h2> Page contents</h2>
+
+{{.Page.Content}}
+
 <h2>Variables</h2>
 <b>Custom Variables</b>                                        <br />
 {{$mycustom := site.Title}}
 Site Title: {{$mycustom}}                                      <br />
 {{/* Override $mycustom */}}
 {{$mycustom = .Page.Title}}
-Page Title: {{$mycustom}}                                      <br />
+Page Title: {{ .Page.Title}}                                   <br />
+Page Kind:  {{ .Page.Kind}}                                    <br />
+Page Type:  {{ .Page.Type}}                                    <br />
+Page BundleType:  {{ .Page.BundleType}}                        <br />
+Page Section:  {{ .Page.Section}}                              <br />
+Page Layout: {{ .Page.Layout}}                                 <br />
+Page Date:  {{ .Page.Date}}                                    <br />
                                                                <br />
 <b>Data Types</b>                                              <br />
 Integer: {{2}}                                                 <br />

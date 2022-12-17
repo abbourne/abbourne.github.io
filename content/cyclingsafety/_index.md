@@ -3,11 +3,6 @@ title: Cycling Safety and Education
 date: 2021-05-14
 description: A series of articles cycling safety, skills, and equipment for experienced cyclists
 categories:
-menu:
-  main:
-    name: Safe Cycling
-    identifier: safecycling
-    weight: 4
 ---
 
 Post retirement I've found myself drawn into cycling coaching. I coach youth in the [OBC's Youth Development Program](https://www.ottawabicycleclub.ca/index.php/youth-program). I'm a [Cycling Canada CanBike](http://canbikecanada.ca/) instructor, and I teach riding skills, traffic safety, and ride leading to adults.
