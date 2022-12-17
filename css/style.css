@@ -1183,6 +1183,7 @@ textarea {
 
 .footer a:hover {
 	text-decoration: underline;
+	color: #999
 }
 
 /* Media Queries */
