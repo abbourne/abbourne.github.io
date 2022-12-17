@@ -1,15 +1,55 @@
 #baseURL =  "https://abbourne.github.io/quickstart/"
 #canonifyURLs = false
 #disablePathToLowerm = false
-#relativeURLs = true  #when set to true, it breaks the 404 page.
+relativeURLs = false  #when set to true, it breaks the 404 page.
 languageCode = "en-us"
 
 title = "It's All Downhill From Here"
-theme = "mainroad2" # Mainroad2 is my customized version
+theme = "mainroad2" # Mainroad2 is my customized version. 
 paginate = "10" # Number of posts per page
 enableEmoji = true
 #disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Params]
+  description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
+  #copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  mainSections = ["blog", "tracknut", "cyclingsafety"]  #Need to include all folders with articles I want on the main page
+  opengraph = true
+  schema = true
+  twitter_cards = true
+  post_meta = ["date", "categories", "tags"]
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-MML-AM_CHTML" # Specify MathJax config
+# mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  mathjax = true
+  pager = true
+  # subtitle = "Bill Bourne's Blog"  # when using Highway theme
+  # logo = "img/bicycle-round-yellow.png" ## when using Highway theme
+
+[menu]
+[[menu.main]]
+  identifier = "safecycling"
+  weight = 4
+  name = "Safe Cycling"
+  url = "/cyclingsafety/"
+[[menu.main]]
+  identifier = "about"
+  weight = 20
+  name = "About"
+[[menu.main]]
+  identifier = "aboutSite"
+  weight = 21
+  name = "About This Site"
+  parent = "about"
+  url = "/about/"
+[[menu.main]]
+  identifier = "aboutMe"
+  weight = 22
+  name = "About Me"
+  parent = "about"
+  url = "/about/aboutbillbourne"
 
 [Author] # Used in authorbox
   name = "Bill Bourne"
@@ -29,20 +69,9 @@ enableEmoji = true
     style = "monokailight"
     noClasses = true  # Creates styling inline, otherwise inserts css classes
 
-[Params]
-  description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
-  #copyright = "John Doe" # Footer copyright holder, otherwise will use site title
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  mainSections = ["blog", "tracknut", "cyclingsafety"]  ## Specify section pages to show on home page and the "Recent articles" widget
-  opengraph = true
-  schema = true
-  twitter_cards = true
-  post_meta = ["date", "categories", "tags"]
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-MML-AM_CHTML" # Specify MathJax config
-# mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  mathjax = true
-  pager = true
+[Params.logo]
+  subtitle = "Bill Bourne's Blog"
+  image = "img/bicycle-round-yellow.png"
 
 [Params.style.vars]
   highlightColor = "#0185C1" # Override highlight color
@@ -53,10 +82,6 @@ enableEmoji = true
   #fontFamilyBody - override body fonts in my custom css (serif)
   #fontFamilyHead - override heading fonts in my custom css (serif)
   #fontFamilyMono - override mono (code, etc) fonts in my custom css (serif)
-
-[Params.logo]
-  subtitle = "Bill Bourne's Blog"
-  image = "img/bicycle-round-yellow.png"
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
