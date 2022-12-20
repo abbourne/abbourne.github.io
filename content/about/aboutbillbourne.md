@@ -1,11 +1,12 @@
 ---
 title: About Bill Bourne
-date: 2022-12-15
+weight: 10
 description: All about who I am and what I do
 draft: false
-authorbox: false
 type: doc
 ---
+
+## Life Behind Bars
 
 While I've not given up my love of software technology and development practices completely, I've moved from coaching software developers to coaching young cyclists. I'm a [National Coaching Certification Program (NCCP)](https://coach.ca/national-coaching-certification-program) trained coach and coach youth in the [OBC’s Youth Development Program](https://www.ottawabicycleclub.ca/index.php/youth-program). I’m a [Cycling Canada CanBike instructor](https://canbikecanada.ca/), and I teach riding skills, traffic safety, and ride leading to adults. I also volunteer, both in Ottawa and at the Mattamy National Cycling Center velodrome in Toronto. And of course, I ride... a lot! My passion is track cycling, as well as getting off the beaten path on rural gravel roads.
 

@@ -59,8 +59,7 @@ html {
 body {
 	margin: 0;
 	font-family: {{ $fontFamilySerif }};
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 16px; 
 	line-height: 1.6;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -272,7 +271,7 @@ code,
 kbd,
 samp {
 	font-family: {{ $fontFamilyMono }};
-	font-size: inherit;
+	font-size: 12px;  /* Changed from inherit */
 }
 
 pre,
@@ -289,7 +288,7 @@ code {
 pre {
 	display: block;
 	padding: 0;
-	padding: 1.25rem;
+	padding: .5rem;
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	overflow: auto;

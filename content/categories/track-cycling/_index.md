@@ -1,8 +1,6 @@
 ---
-
 title: The Joy of Track Cycling
 description: A series of articles are pure joy of riding fast on steeply banked velodromes
-categories:
 ---
 
 {{< figure src="img/track-cover-photo-2.jpg" >}}
