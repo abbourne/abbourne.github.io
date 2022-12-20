@@ -1,12 +1,9 @@
 +++
-author = "bill-bourne"
-comments = true
 date = "2016-03-05T17:28:15-05:00"
 draft = true
 image = ""
-menu = ""
-share = true
 tags = ["physics"]
+categories = ["Track Cycling"]
 title = "The Physics of Riding on Track Bankings"
 mathjax = true
 math = true
