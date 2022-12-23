@@ -1,6 +1,18 @@
 <h1>Hugo Templates</h1>
 
-<h2> Page contents</h2>
+<h2>My tests</h2>
+
+
+Params.listthumbvisible: {{.Params.listthumbvisible}} <br/>
+.Site.Params.listthumbvisible: {{.Site.Params.listthumbvisible}} <br/>
+default listthumbvisible  {{default .Site.Params.listthumbvisible .Params.listthumbvisible }}  <br/>
+<br/>
+.Params.mathjax: {{.Params.mathjax}} <br/>
+.Site.Params.mathjax: {{.Site.Params.mathjax}} <br/>
+default mathjax  {{default .Site.Params.mathjax .Params.mathjax }}
+
+
+<h2>Page contents</h2>
 
 {{.Page.Content}}
 

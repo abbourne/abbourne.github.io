@@ -13,4 +13,5 @@ In the winter the velodrome is my second home, I travel to Toronto every week or
 
 I'm passionate about track, and have introduced over a hundred people from age 9 to senior citizens to the fun of riding steeply banked velodromes. I run "Introduction to Track Cycling" trips to 
 
-# Articles in this Series - Read On!
+# Articles in this Series:
+

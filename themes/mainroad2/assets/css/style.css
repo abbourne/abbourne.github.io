@@ -880,6 +880,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .list__header {
 	margin-bottom: 10px;
 	margin-bottom: .625rem;
+	display: block;
+	width: 100%;
+}
+
+.list__excerpt {
+	display: block;
+	width: 100%;
 }
 
 .list__title {
