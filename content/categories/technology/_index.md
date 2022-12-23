@@ -3,5 +3,6 @@ title: Technology
 description: A series of articles on technology
 ---
 
+You can find all my technology notes archived below.
 
-These page contains articles on technology
+# Articles in This Series:

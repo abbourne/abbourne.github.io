@@ -3,6 +3,7 @@
 title: "Example article title"
 date: "2017-08-21"
 description: "Example article description"
+summary: "Replaces the description in post summaries" # can use instead of <!--more--> (which add a blank line) 
 categories:
   - "Category 1"
   - "Category 2"
@@ -12,8 +13,8 @@ tags:
 menu: main # Optional, add page to a menu. Options: main, side, footer
 
 # Theme-Defined params
-thumbnail: "img/placeholder.jpg" # Thumbnail image
-lead: "Example lead - highlighted near the title" # Lead text
+thumbnail: "img/placeholder.png" # Thumbnail image
+lead: "Example lead - highlighted near the title" # Lead text - Placed as a subtitle under the post's title
 comments: false # Enable Disqus comments for specific page
 authorbox: true # Enable authorbox for specific page
 pager: true # Enable pager navigation (prev/next) for specific page

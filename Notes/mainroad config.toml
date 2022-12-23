@@ -2,6 +2,9 @@ baseurl = "/"
 title = "Mainroad"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
+summaryLength = 50  # Hugo default is 70 words for the content summary of a post
+enableEmoji = true  # enable Hugo's emoji extension
+enableGitInfo = true # use git for "last modified date", also turns on display of last modified date
 theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -11,8 +14,42 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
   avatar = "img/avatar.png"
 
+# I extended the Mainroad theme with the Highway theme extensions to support hierarchical menus
+[menu]
+  [[menu.main]]
+    identifier = "safecycling"
+    weight = 4
+    name = "Safe Cycling"
+    url = "/categories/cycling-safety/"
+  [[menu.main]]
+    identifier = "technology"
+    weight = 4
+    name = "Technology"
+    url = "/categories/technology/"
+  [[menu.main]]
+    identifier = "about"
+    weight = 20
+    name = "About"
+  [[menu.main]]
+    identifier = "aboutSite"
+    weight = 25
+    name = "About This Site"
+    parent = "about"
+    url = "/about/about"
+  [[menu.main]]
+    identifier = "aboutMe"
+    weight = 30
+    name = "About Me"
+    parent = "about"
+    url = "/about/aboutbillbourne"
+  [[menu.main]]
+    identifier = "myClubs"
+    weight = 30
+    name = "My Clubs"
+    parent = "about"
+    url = "/about/clubs"
+
 [Params]
-  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
   copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
@@ -29,16 +66,20 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
+
+  # DEPRECATED PARAMS
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
 
 [Params.style.vars]
   highlightColor = "#e22d30" # Override highlight color
 
-  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Override font-family sets
   # Take care of different quotes OR escaping symbols in these params if necessary
   fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
@@ -46,14 +87,21 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   title = "Mainroad" # Logo title, otherwise will use site title
   subtitle = "Just another site" # Logo subtitle
 
+# Note I changed the Mainroiad2 theme to partly support this
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility (Does not work not in theme layouts!)
+
+# My change allows you to turn off thumbnails on post pages
+[Params.thumbnail]
+  # Show thumbnail only for list items
+  visibility = true
+
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-  # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -77,7 +125,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   title = "Youtube"
   url = "https://youtube.com/user/username"
   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute
 
 [[Params.widgets.social.custom]]
   title = "My Home Page"
-  url = "http://example.com"
+  url = "https://example.com"
+
+[Params.widgets.search]
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""

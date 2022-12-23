@@ -26,6 +26,9 @@ enableGitInfo = true
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-MML-AM_CHTML" # Specify MathJax config. Was "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   mathjax = false  # turn on for pages that need it.
+  # Show thumbnail for list and post pages. This can be overridden by each page
+  listthumbvisible = true
+  postthumbvisible = false
 
   # subtitle = "Bill Bourne's Blog"  # when using Highway theme
   # logo = "img/bicycle-round-yellow.png" ## when using Highway theme
@@ -34,7 +37,7 @@ enableGitInfo = true
   [[menu.main]]
     identifier = "safecycling"
     weight = 4
-    name = "Safe Cycling"
+    name = "Cycling"
     url = "/categories/cycling-safety/"
   [[menu.main]]
     identifier = "technology"
@@ -58,11 +61,17 @@ enableGitInfo = true
     parent = "about"
     url = "/about/aboutbillbourne"
   [[menu.main]]
-  identifier = "myClubs"
-  weight = 30
-  name = "My Clubs"
-  parent = "about"
-  url = "/about/clubs"
+    identifier = "myClubs"
+    weight = 35
+    name = "My Clubs"
+    parent = "about"
+    url = "/about/clubs"
+  [[menu.main]]
+    identifier = "colophon"
+    weight = 40
+    name = "Colophon"
+    parent = "about"
+    url = "/about/colophon"
 
 [Author] # Used in authorbox
   name = "Bill Bourne"
@@ -86,10 +95,6 @@ enableGitInfo = true
 [Params.logo]
   subtitle = "Bill Bourne's Blog"
   image = "img/bicycle-round-yellow.png"
-
-[Params.thumbnail]
-  # Show thumbnail only for list items
-  visibility = true
 
 [Params.style.vars]
   highlightColor = "#0185C1" # Override highlight color

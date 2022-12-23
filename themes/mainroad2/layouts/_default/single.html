@@ -2,6 +2,13 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
+			{{- if .Params.thumbnail }}
+			{{- if default .Site.Params.postthumbvisible .Params.postthumbvisible}}
+			<figure class="post__thumbnail">
+				<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
+			</figure>
+			{{- end }}
+			{{- end }}
 			<h1 class="post__title">{{ .Title }}</h1>
 			{{- with .Params.lead }}
 			<p class="post__lead">{{ . }}</p>
@@ -10,13 +17,7 @@
 			<div class="post__meta meta">{{ . }}</div>
 			{{- end }}
 		</header>
-		{{- if .Params.thumbnail }}
-		{{- if .Params.thumbvisible}}
-		<figure class="post__thumbnail">
-			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
-		</figure>
-		{{- end }}
-		{{- end }}
+		<div style="clear:both"></div>
 		{{- partial "post_toc.html" . -}}
 		<div class="content post__content clearfix">
 			{{ .Content }}
