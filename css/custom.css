@@ -401,27 +401,26 @@ ul.share-icons li > * .label {
 }
 */
 .post__thumbnail {
-	height: 48px;
-	width: 48px;
-	height: 2.3rem;
-	width: 2.3rem; 
 	float: left;
+	height: 100px;
+	max-width: 100px;
 	margin-right: 10px;
 }
 
 .post__thumbnail img {
 	width: 100%;
+	max-width: 100px;
 }
 
 .list__thumbnail {
-	float: left;
-	max-width: 48px;
+    float: left;
+	max-width: 80px;
 	margin: 0 20px 0 0;
 }
 
 .list__thumbnail img {
 	width: 100%;
-	max-width: 48px;
+	max-width: 80px;
 }
 
 /* Posts/Pages */
