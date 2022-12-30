@@ -6,5 +6,3 @@ type: doc
 ---
 
 About this site...
-
-[About me](aboutbillbourne/)

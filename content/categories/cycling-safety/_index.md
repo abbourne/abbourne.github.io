@@ -8,7 +8,7 @@ keywords:
   - CanBike
 ---
 
-{{< figure src="Bill_Coaching1_Bromont-small.jpg" width="100%" alt="Bill Coaching at the Velodrome" class="left" >}}
+{{< figure src="Bill_Coaching1_Bromont-small.jpg" width="90%" alt="Bill Coaching at the Velodrome" class="right" >}}
 Post retirement I've found myself drawn into cycling coaching. I coach youth in the [OBC's Youth Development Program](https://www.ottawabicycleclub.ca/index.php/youth-program), and I'm a [Cycling Canada CanBike](http://canbikecanada.ca/) instructor. I also teach riding skills, traffic safety, and ride leading to adults.
 
 The best way to learn something well is to teach it to someone else. It forces you to reflect deeply on what you think you know. This is especially true of coaching. By approaching coaching with humility and a passion for the subject, I find I'm always learning and growing.
