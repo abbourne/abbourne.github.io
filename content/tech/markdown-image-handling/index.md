@@ -34,7 +34,9 @@ There are three ways to use images in Hugo:
 
 ## Option 1 - Use the Markdown Image tag
 
-The Markdown Image tag is of the form `![alt text](imageURL "Optional Title")`. It will render the image inline. For  example, `![The Hugo Logo](./hugo-logo-125px.png "The Hugo Mascot")` render as ![The Hugo Logo](./hugo-logo-125px.png "The Hugo Mascot"). There are no options to set the image size or any other properties (At least in the default usage). The HTML Markdown generates is `<img src="./hugo-logo-125px.png" alt="The Hugo Logo" title="The Hugo Mascot">`. And the in line image will determine the height of the line it is on.
+The Markdown Image tag is of the form `![alt text](imageURL "Optional Title")`. This format is part of the [CommonMark](https://commonmark.org/) specification, and supported by all Markdown implementations. It's particularly useful if you want your Markdown to be "portable", or you want to generate output formnats other than HTML (PDF, for example).
+
+It will render the image inline. For  example, `![The Hugo Logo](./hugo-logo-125px.png "The Hugo Mascot")` render as ![The Hugo Logo](./hugo-logo-125px.png "The Hugo Mascot"). There are no options to set the image size or any other properties (At least in the default usage). The HTML Markdown generates is `<img src="./hugo-logo-125px.png" alt="The Hugo Logo" title="The Hugo Mascot">`. And the in line image will determine the height of the line it is on.
 
 If the image tag is put on a separate line it will be treated as new paragraph (in accordance with the markdown specification). So for:
 
@@ -53,10 +55,9 @@ The CommonMark-specification is to generate an HTML `<img>` tag without an HTML5
 * Hugo/Goldmark has [custom attribute support](https://gohugo.io/getting-started/configuration-markup/#goldmark) that allows attributes to be placed on block elements, but _not_ inline elements. So:
 
     ```
-    ## My Title Has Attributes {class="myclass}   - This is OK
+    ## My Title Has Attributes {class="myclass}   - Block element, This is OK
 
-    ![The Hugo Logo](./hugo-logo-125px.png) {height=100px, class="right}  - This wont work!
-    ```
+    ![The Hugo Logo](./hugo-logo-125px.png) {height=100px, class="right}  - Inline element, Won't work!
 
 In Hugo [Hugo Release v0.108.8](https://github.com/gohugoio/hugo/releases/tag/v0.108.0), there is now a workaround for this:
 
@@ -71,7 +72,7 @@ Set `markup.goldmark.parser.wrapStandAloneImageWithinParagraph = false` so stand
         block = true
 ```
 
-This makes it possible to add Markdown attributes (e.g. CSS classes) on standalone images:
+This makes it possible to add Markdown attributes (e.g. CSS classes[^1]) on standalone images:
 
 ```
 ![Gravel Calls](gravel-calls.jpeg)
@@ -88,10 +89,10 @@ Note that the attributes must go on the line following the image tag. Putting th
 ## Option 3 - Use Hugo's figure Shortcode
 
 ```
-{{</* figure src="/img/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="left" */>}}
+{{</* figure src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="left" */>}}
 ```
 
-{{< figure src="/img/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="left" >}}
+{{< figure src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="left" >}}
 
 At this point we have to enter text to flow to the right of the figure
 
@@ -106,10 +107,10 @@ At this point we have to enter text to flow to the right of the figure
 * and we should be done!
 
 ```
-<img src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="right" >
+<img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="right" >
 ```
 
-<img src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="right" >
+<img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="right" >
 
 At this point we have to enter text to flow to the left of the figure
 
@@ -124,22 +125,43 @@ At this point we have to enter text to flow to the left of the figure
 * and we should be done!
 
 ```
-{{</* figure src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="center" */>}}
+{{</* figure src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="center" */>}}
 ```
 
-{{< figure src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls" class="center" >}}
+{{< figure src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="center" >}}
 
 Note here that the image is centered with `class="center"`, and the text does not flow around.
 
 ```
-<img src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls">
+<img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls">
 ```
 
-<img src="../images/gravel-calls.jpeg" width="200" alt="Gravel Calls">
+<img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls">
 
 Finally, if we don't use any class element, the default is for the image to be left-justified, with no text flow around.
 
 ## Notes
 
 * [Image processor](https://gohugo.io/content-management/image-processing/) -  Hugo has a built in image processor for pre-processing images. It's use optional. A list of the filtering functions can be found at [Image Filters](https://gohugo.io/functions/images/)
-* [Markdown Processing Update in Release v0.108.8](https://github.com/gohugoio/hugo/releases/tag/v0.108.0) - With Hugo `v0.108.0` you can render standalone Markdown images without a surrounding paragraph. Both the HTML- and CommonMark-specification defines image as an inline element. For Markdown, this has meant that if you put an image on its own (not _inlined_ in another paragraph), it would be wrapped in `<p></p>` tags, even if you provide your own [Render Hook Template](https://gohugo.io/templates/render-hooks/).
+
+[^1]: In this article, I'm using the following css classes to position images:
+
+    ```css
+    .right {
+      float:right;
+      max-width: 40%;
+      margin-left: 5px
+    }
+
+    .left {
+      float:left;
+      max-width: 40%;
+      margin-right: 20px
+    }
+
+    .center {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+    ```
