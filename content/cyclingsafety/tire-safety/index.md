@@ -5,6 +5,12 @@ description: You can have it all with wider tires
 lead: You can have it all with wider tires
 summary: The most important contact point on a bike is “where the rubber meets the road”. Tires may be the most important component on your bike. The right tire at the right pressure makes a huge difference to your safety - your “grip” on the road - as well as to your comfort, and efficiency. You can have it all with wider tires.
 thumbnail: "/img/bicycle-tires-unsplash-small.jpg"
+keywords:
+  - cycling
+  - bikes
+  - education
+  - safety
+  - tires
 categories:
   - "Cycling Safety"
 tags:
