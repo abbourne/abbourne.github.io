@@ -21,6 +21,6 @@ When I was working, I had a blog where I wrote technology articles. This website
 {{< figure src="../images/gravel-calls.jpeg" width="250" alt="Gravel Calls" class="left" >}}
 As an active senior citizen cyclist, I find the double entendre really appropriate.
 
-On one hand, the experience of getting older - the inevitable, gradual slowing down, the increase in aches & pains, the loss of flexibility, the decrease in balance, the forgetfulness. I like to say that my objective in training now is to "get slower less quickly"! In this sense, "going downhill" is bad.
+On one hand, the experience of getting older - the inevitable, gradual slowing down, the increase in aches & pains, the loss of flexibility, the decrease in balance, the forgetfulness. I like to say that my objective in training now is to "_get slower less quickly_"! In this sense, "going downhill" is bad.
 
 But to a cyclist, "going downhill" is good - it means going fast, and having fun, with less effort. And retirement feels like that - fewer responsibilities, less stress, more freedom, more time. No one to tell you what you can and can't do - "it's all good!"

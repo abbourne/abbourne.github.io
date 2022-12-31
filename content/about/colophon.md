@@ -18,4 +18,4 @@ Hugo can run a local webserver for development. Hugo watches for file changes - 
 
 An advantage of static sites, or to be precise, sites that use the [Jamstack](https://jamstack.org/) architecture is that there are numerous options for great free, reliable hosting on cloud infrastructure with quite rich features. I'm experimenting with [GitHub Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/). Both support Hugo, as well as several other SSGs.
 
-The source for the site is stored in [GitHub](https://github.com/abbourne/abbourne.github.io). A push to the Master branch triggers a production build and deploy. It takes about 30 seconds from entering `git push` om my laptop until the site is live on the web.
+The source for the site is stored in [GitHub](https://github.com/abbourne/abbourne.github.io). A push to the Master branch triggers a production build and deploy. It takes about 30 seconds from entering `git push` on my laptop until the site is live on the web.
