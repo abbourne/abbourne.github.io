@@ -2,12 +2,11 @@
 title: "{{ replace .TranslationBaseName '-' ' ' | title }}"
 lead: ""
 description: ""
-summary: ""
 keywords: []
 date: "{{ .Date }}"
+summary: ""
 thumbnail: ""
 postthumbvisible: true
-draft: true
 categories: []
 tags: []
 draft: true

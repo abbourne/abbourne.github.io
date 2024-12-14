@@ -2,13 +2,13 @@
 title: "Velodrome Basics"
 date: "2016-02-24"
 image: "img/Milton-Dropin-2-Header.jpg"
-categories:
-  - "Track Cycling"
-tags:
+categories: ["Track Cycling"]
+tags: ["velodrome"]
+weight: 10
 draft: false
 ---
 
-This page gives you a detailed tour around velodromes, using the two indoor velodromes in Ontario as examples:
+This page gives you a detailed tour around velodromes, using the indoor velodromes in Ontario and Quebec as examples:
 <!--more-->
 
 * [Mattamy National Cycling Centre](http://www.mattamynationalcyclingcentre.ca/) in Milton. This was the 2015 Pan AM Games velodrome, Its a [UCI Class 1 velodrome](http://www.uci.ch/track/news/article/what-you-should-know-about-velodromes/), one of only two in North America 
@@ -16,9 +16,9 @@ This page gives you a detailed tour around velodromes, using the two indoor velo
 
 The [Milton Velodrome](http://www.mattamynationalcyclingcentre.ca/en/the-centre/Cycling-Track.asp), conforms to the dimensions of a [UCI Class 1 velodrome](http://www.uci.ch/track/news/article/what-you-should-know-about-velodromes/): a 250-metre long, 7-metre wide timber track constructed from smooth, untreated Siberian Spruce, with 42-degree banked bends and 13-degree banked straights. Check out the view of the track below:
 
-{{< figure src="/images/View-of-Milton-Velodrome-annotated.jpg" title="A View of the Milton Velodrome" caption="Looking from the top of the banking along the finishing straight">}}
+{{< figure src="../img/View-of-Milton-Velodrome-annotated.jpg" title="A View of the Milton Velodrome" caption="Looking from the top of the banking along the finishing straight" class="center">}}
 
-{{< figure src="/images/track-markings-1.png" title="Standard Velodrome Markings" caption="This diagram shows all the markings on a 250 meter track">}}
+{{< figure src="../img/track-markings-1.png" title="Standard Velodrome Markings" caption="This diagram shows all the markings on a 250 meter track" class="center">}}
 
 The track is divided into sections as follows:
 

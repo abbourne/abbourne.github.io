@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Hugo Markdown Image Handling - It&#39;s All Downhill From Here</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.">
+		<meta property="og:url" content="//localhost:1313/tech/markdown-image-handling/">
+  <meta property="og:site_name" content="It&#39;s All Downhill From Here">
+  <meta property="og:title" content="Hugo Markdown Image Handling">
+  <meta property="og:description" content="The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2022-12-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-12-29T21:50:35-05:00">
+    <meta property="article:tag" content="Markdown">
+    <meta property="article:tag" content="Pandoc">
+    <meta property="article:tag" content="Hugo">
+
+		
+  <meta itemprop="name" content="Hugo Markdown Image Handling">
+  <meta itemprop="description" content="The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.">
+  <meta itemprop="datePublished" content="2022-12-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-12-29T21:50:35-05:00">
+  <meta itemprop="wordCount" content="798">
+  <meta itemprop="keywords" content="Markdown,Pandoc,Hugo">
+		
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hugo Markdown Image Handling">
+  <meta name="twitter:description" content="The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+
+	
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="It&#39;s All Downhill From Here" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/bicycle-round-yellow.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">It&#39;s All Downhill From Here</div>
+					<div class="logo__tagline">Bill Bourne&#39;s Blog</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/cycling-safety/">
+				
+				<span class="menu__text">Cycling</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/track-cycling/">
+				
+				<span class="menu__text">Track Cycling</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/technology/">
+				
+				<span class="menu__text">Technology</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="">
+				
+				<span class="menu__text">About</span>
+				<label class="drop-icon" for="About">▾</label>
+				
+			</a>
+			<input type="checkbox" id="About">
+			<ul class="submenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/about/about">
+						
+						<span class="menu__text">About This Site</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/about/aboutbillbourne">
+						
+						<span class="menu__text">About Me</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/about/clubs">
+						
+						<span class="menu__text">My Clubs</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/about/colophon">
+						
+						<span class="menu__text">Colophon</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<figure class="post__thumbnail">
+				<img src="/img/hugo-logo-235px.png" alt="Hugo Markdown Image Handling">
+			</figure>
+			<h1 class="post__title">Hugo Markdown Image Handling</h1>
+			<p class="post__lead">This article is under construction</p>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-12-17T00:00:00Z">December 17, 2022</time>
+	<time class="meta__text" datetime="2022-12-29T21:50:35-05:00">(Last Modified: December 29, 2022)</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/technology/" rel="category">Technology</a>
+	</span>
+</div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/markdown/" rel="tag">Markdown</a>, <a class="meta__link" href="/tags/pandoc/" rel="tag">Pandoc</a>, <a class="meta__link" href="/tags/hugo/" rel="tag">Hugo</a>
+	</span>
+</div></div>
+		</header>
+		<div style="clear:both"></div><div class="content post__content clearfix">
+			<p>The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.</p>
+<h2 id="introduction">Introduction</h2>
+<p>For general  Markdown references and tutorials see:</p>
+<ul>
+<li><a href="https://github.com/yuin/goldmark">Goldmark</a> - Goldmark is a markdown processor written in go, which is used by Hugo</li>
+<li><a href="https://gohugo.io/getting-started/configuration-markup/">Configuring Hugo&rsquo;s Markdown</a> lists all the configuration options for Hugo&rsquo;s Goldmark settings.</li>
+<li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Markdown">Wikipedia Markdown entry</a></li>
+<li><a href="https://commonmark.org/">CommonMark</a> - the markdown &ldquo;standard&rdquo;</li>
+</ul>
+<h2 id="image-handling">Image Handling</h2>
+<p>There are three ways to use images in Hugo:</p>
+<ol>
+<li>Use the standard <a href="https://www.markdownguide.org/basic-syntax/#images-1">Markdown Image Tag</a>.  Markdown has very basic support for images.</li>
+<li>Use HTML within the Markdown file</li>
+<li>Use Hugo&rsquo;s <a href="https://gohugo.io/content-management/shortcodes/#figure">figure shortcode</a>. Hugo supplies a shortcode to pu an image in an <a href="https://html5doctor.com/the-figure-figcaption-elements/">HTML5 <code>&lt;figure&gt;</code> element</a>. It includes a number of parameters.</li>
+<li>OK&hellip; the third way is to do something custom. For example create your own custom shortcode, use <a href="https://gohugo.io/templates/render-hooks/">Hugo Render Hooks</a>, or use a different external Markdown processor like <a href="https://pandoc.org/">Pandoc</a></li>
+</ol>
+<h2 id="option-1---use-the-markdown-image-tag">Option 1 - Use the Markdown Image tag</h2>
+<p>The Markdown Image tag is of the form <code>![alt text](imageURL &quot;Optional Title&quot;)</code>. This format is part of the <a href="https://commonmark.org/">CommonMark</a> specification, and supported by all Markdown implementations. It&rsquo;s particularly useful if you want your Markdown to be &ldquo;portable&rdquo;, or you want to generate output formnats other than HTML (PDF, for example).</p>
+<p>It will render the image inline. For  example, <code>![The Hugo Logo](./hugo-logo-125px.png &quot;The Hugo Mascot&quot;)</code> render as <img src="./hugo-logo-125px.png" alt="The Hugo Logo" title="The Hugo Mascot">. There are no options to set the image size or any other properties (At least in the default usage). The HTML Markdown generates is <code>&lt;img src=&quot;./hugo-logo-125px.png&quot; alt=&quot;The Hugo Logo&quot; title=&quot;The Hugo Mascot&quot;&gt;</code>. And the in line image will determine the height of the line it is on.</p>
+<p>If the image tag is put on a separate line it will be treated as new paragraph (in accordance with the markdown specification). So for:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![The Hugo Logo](./hugo-logo-125px.png &#34;The Hugo Mascot&#34;)
+</span></span></code></pre></div><p>the image is rendered within it&rsquo;s own <code>&lt;p&gt;&lt;/p&gt;</code> paragraph block:</p>
+<img src="./hugo-logo-125px.png" alt="The Hugo Logo" title="The Hugo Mascot"><p>The HTML generated is <code>&lt;p&gt;&lt;img src=&quot;./hugo-logo-125px.png&quot; alt=&quot;The Hugo Logo&quot; title=&quot;The Hugo Mascot&quot;&gt;&lt;/p&gt;</code>
+The CommonMark-specification is to generate an HTML <code>&lt;img&gt;</code> tag without an HTML5 <code>&lt;figure&gt;,&lt;/figure&gt;</code> - a markdown image is an <em>inline</em>, not a block element. For Markdown, this means that:</p>
+<ul>
+<li>
+<p>If you put an image on its own (not <em>inlined</em>) in another paragraph), it would be wrapped in <code>&lt;p&gt;&lt;/p&gt;</code> tags. (Even if you provide your own a <a href="https://gohugo.io/templates/render-hooks/">Hugo Render Hook Template</a> )</p>
+</li>
+<li>
+<p>Hugo/Goldmark has <a href="https://gohugo.io/getting-started/configuration-markup/#goldmark">custom attribute support</a> that allows attributes to be placed on block elements, but <em>not</em> inline elements. So:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>## My Title Has Attributes {class=&#34;myclass}   - Block element, This is OK
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>![The Hugo Logo](./hugo-logo-125px.png) {height=100px, class=&#34;right}  - Inline element, Won&#39;t work!
+</span></span></code></pre></div></li>
+</ul>
+<p>In Hugo <a href="https://github.com/gohugoio/hugo/releases/tag/v0.108.0">Hugo Release v0.108.8</a>, there is now a workaround for this:</p>
+<p>Set <code>markup.goldmark.parser.wrapStandAloneImageWithinParagraph = false</code> so standalone images will not be wrapped in <code>&lt;p&gt;&gt;/p&gt;</code> tags. Also set <code>block = true</code> to support attributes on block elements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[markup]
+</span></span><span style="display:flex;"><span>  [markup.goldmark]
+</span></span><span style="display:flex;"><span>    [markup.goldmark.parser]
+</span></span><span style="display:flex;"><span>      wrapStandAloneImageWithinParagraph = false
+</span></span><span style="display:flex;"><span>      [markup.goldmark.parser.attribute]
+</span></span><span style="display:flex;"><span>        block = true
+</span></span></code></pre></div><p>This makes it possible to add Markdown attributes (e.g. CSS classes<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>) on standalone images:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![Gravel Calls](gravel-calls.jpeg)
+</span></span><span style="display:flex;"><span>{width=&#34;200&#34; alt=&#34;Gravel Calls&#34; class=&#34;center&#34;}
+</span></span></code></pre></div><img src="./gravel-calls.jpeg" alt="Gravel Calls" width="200" class="center"><p>Note that the attributes must go on the line following the image tag. Putting them on the same line won&rsquo;t work. While adding attributes within <code>{}</code> after the image URL tag is non-standard Markdown, a number of Markdown processor support it.</p>
+<h2 id="option-2---use-embedded-html">Option 2 - Use Embedded HTML</h2>
+<h2 id="option-3---use-hugos-figure-shortcode">Option 3 - Use Hugo&rsquo;s figure Shortcode</h2>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; figure src=&#34;./gravel-calls.jpeg&#34; width=&#34;200&#34; alt=&#34;Gravel Calls&#34; class=&#34;left&#34; &gt;}}
+</span></span></code></pre></div><figure class="left"><img src="./gravel-calls.jpeg"
+    alt="Gravel Calls" width="200">
+</figure>
+
+<p>At this point we have to enter text to flow to the right of the figure</p>
+<ul>
+<li>Note that the list formatted is a bit messed up. There is no tab.</li>
+<li>another point</li>
+<li>and a third</li>
+<li>this is getting boring!</li>
+<li>and another</li>
+<li>almost there</li>
+<li>still not quite</li>
+<li>one more line!</li>
+<li>and we should be done!</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;img src=&#34;./gravel-calls.jpeg&#34; width=&#34;200&#34; alt=&#34;Gravel Calls&#34; class=&#34;right&#34; &gt;
+</span></span></code></pre></div><img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls" class="right" >
+<p>At this point we have to enter text to flow to the left of the figure</p>
+<ul>
+<li>Note that the list formatting is a bit messed up. There is no tab.</li>
+<li>another point</li>
+<li>and a third</li>
+<li>this is getting boring!</li>
+<li>and another</li>
+<li>almost there</li>
+<li>still not quite</li>
+<li>one more line!</li>
+<li>and we should be done!</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; figure src=&#34;./gravel-calls.jpeg&#34; width=&#34;200&#34; alt=&#34;Gravel Calls&#34; class=&#34;center&#34; &gt;}}
+</span></span></code></pre></div><figure class="center"><img src="./gravel-calls.jpeg"
+    alt="Gravel Calls" width="200">
+</figure>
+
+<p>Note here that the image is centered with <code>class=&quot;center&quot;</code>, and the text does not flow around.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;img src=&#34;./gravel-calls.jpeg&#34; width=&#34;200&#34; alt=&#34;Gravel Calls&#34;&gt;
+</span></span></code></pre></div><img src="./gravel-calls.jpeg" width="200" alt="Gravel Calls">
+<p>Finally, if we don&rsquo;t use any class element, the default is for the image to be left-justified, with no text flow around.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li><a href="https://gohugo.io/content-management/image-processing/">Image processor</a> -  Hugo has a built in image processor for pre-processing images. It&rsquo;s use optional. A list of the filtering functions can be found at <a href="https://gohugo.io/functions/images/">Image Filters</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In this article, I&rsquo;m using the following css classes to position images:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#111">.</span><span style="color:#75af00">right</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">float</span><span style="color:#111">:</span><span style="color:#00a8c8">right</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">max-width</span><span style="color:#111">:</span> <span style="color:#ae81ff">40</span><span style="color:#00a8c8">%</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">margin-left</span><span style="color:#111">:</span> <span style="color:#ae81ff">5</span><span style="color:#00a8c8">px</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">.</span><span style="color:#75af00">left</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">float</span><span style="color:#111">:</span><span style="color:#00a8c8">left</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">max-width</span><span style="color:#111">:</span> <span style="color:#ae81ff">40</span><span style="color:#00a8c8">%</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">margin-right</span><span style="color:#111">:</span> <span style="color:#ae81ff">20</span><span style="color:#00a8c8">px</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">.</span><span style="color:#75af00">center</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">display</span><span style="color:#111">:</span> <span style="color:#00a8c8">block</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">margin</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#00a8c8">text-align</span><span style="color:#111">:</span> <span style="color:#00a8c8">center</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+</ol>
+</div>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/markdown/" rel="tag">Markdown</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/pandoc/" rel="tag">Pandoc</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hugo/" rel="tag">Hugo</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar">
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Updates</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/tracknut/joy_of_track/">The Joy of Recreational Track Cycling</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tracknut/about_velodromes/">Velodrome Basics</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tracknut/basic_rules/">Essential Rules of the Track</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tracknut/ontario_track_resources/">Ontario Track Cycling Resources</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tracknut/track-physics-1/">The Physics of Riding on Track Bankings</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/cycling-safety/">Cycling Education</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">6</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/technology/">Technology</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/track-cycling/">Track Cycling</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">5</span>
+				</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Find me at</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn share-btn Strava" title="Strava" rel="noopener noreferrer" href="https://strava.com/athletes/123225" target="_blank">
+				<svg class="widget-social__link-icon icon icon-strava" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48ZM22.1701 20.0804L25.519 26.6903H30.4415L22.1701 10.3626L13.9 26.6903H18.8236L22.1701 20.0804ZM25.457 26.785L27.9495 31.7029L30.4404 26.785H34.1012L27.9495 38.9338L21.7935 26.785H25.457Z" fill="white"/>
+</svg>
+
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn share-btn facebook" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/abbourne" target="_blank">
+				<svg class="widget-social__link-icon icon icon-facebook" width="24" height="24" viewBox="0 0 352 352"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn share-btn linkedin" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/williambourne" target="_blank">
+				<svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn share-btn gmail" title="Email" href="mailto:wbbourne@gmail.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 32 32">
+<path fill="#E6E6E6" d="M28,26H4c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h24c1.105,0,2,0.895,2,2v16C30,25.105,29.105,26,28,26z
+	"/>
+<path fill="#D44C40" d="M6,26H4c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h0c1.105,0,2,0.895,2,2V26z"/>
+<path fill="#EFEFEF" d="M28,6C28.646,6,29.279,6.313,29.664,6.891C30.277,7.81,16,17.404,16,17.404S1.723,7.81,2.336,6.891
+	C2.719,6.316,3.348,6.004,3.99,6L28,6z"/>
+<polygon fill="#CCCCCC" points="6,26 13.476,19.77 6,12.633 "/>
+<path fill="#B3B3B3" d="M29.109,9.664L16,18.404l-0.491-0.328l-2.033,1.694L20,26h8c1.105,0,2-0.895,2-2V8.012
+	C29.995,8.654,29.683,9.282,29.109,9.664z"/>
+<polygon fill="#999999" points="6,11.737 6,12.633 13.476,19.77 15.509,18.076 "/>
+<polygon fill="#C1453A" points="6,12.633 6,11.737 2.892,9.665 "/>
+<path fill="#AD3E34" d="M26,26h2c1.105,0,2-0.895,2-2V8c0-1.105-0.895-2-2-2h0c-1.105,0-2,0.895-2,2V26z"/>
+<path fill="#DE5040" d="M28,6l0.004,0c-0.383-0.001-0.771,0.107-1.113,0.335L16,13.596L6,6.93L5.975,6.913L5.12,6.343
+	C4.8,6.126,4.415,6,4,6C2.895,6,2,6.895,2,8c0,0.001,0,0.003,0,0.004c0,0.001,0,0.003,0,0.004v0.004
+	c0,0.016,0.005,0.031,0.006,0.047c0.004,0.135,0.021,0.266,0.05,0.393c0.01,0.042,0.026,0.081,0.038,0.123
+	C2.125,8.677,2.161,8.776,2.207,8.87c0.022,0.045,0.047,0.089,0.072,0.133C2.331,9.092,2.39,9.175,2.455,9.255
+	c0.03,0.037,0.058,0.075,0.091,0.111c0.104,0.11,0.216,0.211,0.342,0.296C2.889,9.662,2.89,9.663,2.891,9.664l0.001,0.001L6,11.737
+	l9.509,6.339L16,18.404l13.109-8.74c0.574-0.383,0.886-1.01,0.891-1.652V8.008V8C30,6.895,29.105,6,28,6z"/>
+</svg>
+
+			</a>
+		</div>
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn share-btn" title="" rel="noopener noreferrer" href="https://billbourne.myportfolio.com/photography" target="_blank">
+					<svg class="widget-social__link-icon icon icon-instagram" width="24" height="24" viewBox="0 0 256 256"><circle cx="193" cy="59" r="15"/><path fill-rule="evenodd" d="M101 0h54c41 0 58.4 3.9 74.5 17C256.2 37.5 256 74.8 256 97.7v60c0 26.7 0 60.4-26.5 81.4-16 13.4-33.5 16.9-74.5 16.9h-54c-41 0-57.5-3.5-74.5-16.9C1 218.9.5 186.3.1 160.5L0 155V97.7c0-23-.2-60.2 26.5-80.7C45 2 60 0 101 0zm4.9 23h44.3c45.8 0 58.3 3.5 70.3 17.5 11.8 13.2 12 30.1 12.5 62.9V156c.2 20.8.3 45.8-12.5 59.5-12 14-24.5 17.5-70.3 17.5h-44.3c-45.9 0-57.3-3.5-70.4-17.5-12.2-13-12.3-36.5-12.4-56.7v-55.6c.4-32.6.7-49.6 12.4-62.7C48 26.5 60 23 105.9 23zm19.6 144.5a42 42 0 1 0 0-84 42 42 0 0 0 0 84zm0 22.5a64.5 64.5 0 1 0 0-129 64.5 64.5 0 0 0 0 129z"/></svg>
+				<span></span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Bill Bourne.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

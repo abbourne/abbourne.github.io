@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About this site on It&#39;s All Downhill From Here</title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in About this site on It&#39;s All Downhill From Here</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colophon - How this Site is Made</title>
+      <link>//localhost:1313/about/colophon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/colophon/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;../images/hugo-logo-200px.png&#34;&#xA;    alt=&#34;Hugo logo&#34; width=&#34;150&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;This site is written in &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; and generated with the static site generator (SSG) &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. Markdown is a simple plain text document format that can be easily and quickly processed to generate html, pdf, .docx, and a number of other file formats. I use it for just about all my writing - for documents and articles (I avoid Microsoft Word at all costs!), note taking, and for writing web pages. Hugo quickly generates an efficient website. Since the website is made up only of static webpages and a little JavaScript, it renders fast.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Clubs and Activities</title>
+      <link>//localhost:1313/about/clubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/clubs/</guid>
+      <description>&lt;h2 id=&#34;cycling-clubs&#34;&gt;Cycling Clubs&lt;/h2&gt;&#xA;&lt;p&gt;Since my biggest activity is cycling, I&amp;rsquo;m of course, a member of multiple clubs and organizations:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ottawabicycleclub.ca/&#34;&gt;&lt;img src=&#34;../images/OBC-400x229.png&#34; alt=&#34;Ottawa Bicycle Club&#34; width=&#34;125px&#34; class=&#34;left&#34;&gt;&lt;/a&gt; The &lt;a href=&#34;https://www.ottawabicycleclub.ca/&#34;&gt;OBC&lt;/a&gt; is my &amp;ldquo;home club&amp;rdquo;. One of largest cycling club&amp;rsquo;s in Canada, with over 1,000 members, the OBC offers touring, gravel riding, time trials, and various events like the &lt;a href=&#34;https://www.ottawabicycleclub.ca/rlct/&#34;&gt;Rideau Lakes Cycle Tour&lt;/a&gt;.&#xA;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Bill Bourne - Life Behind Bars</title>
+      <link>//localhost:1313/about/aboutbillbourne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/aboutbillbourne/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/gravel-life-behind-bars-banner.jpeg&#34;&#xA;    alt=&#34;Life Behind Bars&#34; width=&#34;100%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;../images/bill-on-track.jpg&#34;&#xA;    alt=&#34;Bill Playing in the Mud&#34; width=&#34;250&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;While I&amp;rsquo;ve not given up my love of software technology completely, I&amp;rsquo;ve moved from coaching software developers to coaching young cyclists. I&amp;rsquo;m a &lt;a href=&#34;https://coach.ca/national-coaching-certification-program&#34;&gt;National Coaching Certification Program (NCCP)&lt;/a&gt; trained coach, and coach youth in the &lt;a href=&#34;https://www.ottawabicycleclub.ca/index.php/youth-program&#34;&gt;OBC’s Youth Development Program&lt;/a&gt;. I’m a &lt;a href=&#34;https://canbikecanada.ca/&#34;&gt;Cycling Canada CanBike instructor&lt;/a&gt;, and I teach riding skills, traffic safety, and ride leading to adults.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About this site</title>
+      <link>//localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;I use this site to post notes about cycling, (especially track cycling, and cycling education), technology, and other random topics. It&amp;rsquo;s my place to put various articles and information that I feel like sharing. Sometimes feel compelled to opine on a topic. I don&amp;rsquo;t rally expect people to read my writings, but maybe the odd person will find something useful!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

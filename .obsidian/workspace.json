@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "924b17ee21b34390",
+    "type": "split",
+    "children": [
+      {
+        "id": "b61c9f45c8c2b2b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e302ee886fd18f85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/about/clubs.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f20f44fed1b8eab5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fb4dd01d8078523",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0cf11cf3daad65e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c0bdf68522839f86",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76a545dcfad4fb34",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2dd43d2cdaed8a3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1120048d9020f8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b58390a9fcbf8b17",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/about/clubs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fa36884c59ef43d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/about/clubs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89c3da290ab8adbc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "df63cf7a7712a640",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/about/clubs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "e302ee886fd18f85",
+  "lastOpenFiles": [
+    "content/about/aboutbillbourne.md",
+    "content/about/about.md",
+    "assets/images/gravel-calls.jpeg",
+    "assets/css/custom.css",
+    "archetypes/doc.md",
+    "archetypes/default.md",
+    "README.md",
+    "layouts/shortcodes/AsciiMath.html",
+    "layouts/partials/svg/author.svg",
+    "layouts/doc/list.html"
+  ]
+}

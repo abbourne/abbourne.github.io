@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on It&#39;s All Downhill From Here</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Welcome on It&#39;s All Downhill From Here</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colophon - How this Site is Made</title>
+      <link>//localhost:1313/about/colophon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/colophon/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;../images/hugo-logo-200px.png&#34;&#xA;    alt=&#34;Hugo logo&#34; width=&#34;150&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;This site is written in &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; and generated with the static site generator (SSG) &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. Markdown is a simple plain text document format that can be easily and quickly processed to generate html, pdf, .docx, and a number of other file formats. I use it for just about all my writing - for documents and articles (I avoid Microsoft Word at all costs!), note taking, and for writing web pages. Hugo quickly generates an efficient website. Since the website is made up only of static webpages and a little JavaScript, it renders fast.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Joy of Recreational Track Cycling</title>
+      <link>//localhost:1313/tracknut/joy_of_track/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tracknut/joy_of_track/</guid>
+      <description>&lt;p&gt;In the depths of winter, options for cycling become less appealing… Do I ride outdoors in the cold, wet, and wind? Or sweat it out indoors on a trainer, listening to music or a video to combat boredom?&lt;/p&gt;&#xA;&lt;p&gt;There’s another option - Indoor velodromes! Living in Ottawa, there are now three excellent velodromes I can frequent:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Clubs and Activities</title>
+      <link>//localhost:1313/about/clubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/clubs/</guid>
+      <description>&lt;h2 id=&#34;cycling-clubs&#34;&gt;Cycling Clubs&lt;/h2&gt;&#xA;&lt;p&gt;Since my biggest activity is cycling, I&amp;rsquo;m of course, a member of multiple clubs and organizations:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ottawabicycleclub.ca/&#34;&gt;&lt;img src=&#34;../images/OBC-400x229.png&#34; alt=&#34;Ottawa Bicycle Club&#34; width=&#34;125px&#34; class=&#34;left&#34;&gt;&lt;/a&gt; The &lt;a href=&#34;https://www.ottawabicycleclub.ca/&#34;&gt;OBC&lt;/a&gt; is my &amp;ldquo;home club&amp;rdquo;. One of largest cycling club&amp;rsquo;s in Canada, with over 1,000 members, the OBC offers touring, gravel riding, time trials, and various events like the &lt;a href=&#34;https://www.ottawabicycleclub.ca/rlct/&#34;&gt;Rideau Lakes Cycle Tour&lt;/a&gt;.&#xA;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Velodrome Basics</title>
+      <link>//localhost:1313/tracknut/about_velodromes/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tracknut/about_velodromes/</guid>
+      <description>&lt;p&gt;This page gives you a detailed tour around velodromes, using the indoor velodromes in Ontario and Quebec as examples:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Bill Bourne - Life Behind Bars</title>
+      <link>//localhost:1313/about/aboutbillbourne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/aboutbillbourne/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/gravel-life-behind-bars-banner.jpeg&#34;&#xA;    alt=&#34;Life Behind Bars&#34; width=&#34;100%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;../images/bill-on-track.jpg&#34;&#xA;    alt=&#34;Bill Playing in the Mud&#34; width=&#34;250&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;While I&amp;rsquo;ve not given up my love of software technology completely, I&amp;rsquo;ve moved from coaching software developers to coaching young cyclists. I&amp;rsquo;m a &lt;a href=&#34;https://coach.ca/national-coaching-certification-program&#34;&gt;National Coaching Certification Program (NCCP)&lt;/a&gt; trained coach, and coach youth in the &lt;a href=&#34;https://www.ottawabicycleclub.ca/index.php/youth-program&#34;&gt;OBC’s Youth Development Program&lt;/a&gt;. I’m a &lt;a href=&#34;https://canbikecanada.ca/&#34;&gt;Cycling Canada CanBike instructor&lt;/a&gt;, and I teach riding skills, traffic safety, and ride leading to adults.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Essential Rules of the Track</title>
+      <link>//localhost:1313/tracknut/basic_rules/</link>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tracknut/basic_rules/</guid>
+      <description>&lt;p&gt;This page is deliberately short. We ride the track &lt;em&gt;a lot&lt;/em&gt; and we keep coming across people not following these essential rules, resulting is quite a number of close calls. Crashes in recreational track cycling are rare, and we want to keep them that way!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About this site</title>
+      <link>//localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;I use this site to post notes about cycling, (especially track cycling, and cycling education), technology, and other random topics. It&amp;rsquo;s my place to put various articles and information that I feel like sharing. Sometimes feel compelled to opine on a topic. I don&amp;rsquo;t rally expect people to read my writings, but maybe the odd person will find something useful!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ontario Track Cycling Resources</title>
+      <link>//localhost:1313/tracknut/ontario_track_resources/</link>
+      <pubDate>Mon, 22 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tracknut/ontario_track_resources/</guid>
+      <description>&lt;p&gt;This page contains links to velodromes and organizations of interest to riders in Ontario&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Physics of Riding on Track Bankings</title>
+      <link>//localhost:1313/tracknut/track-physics-1/</link>
+      <pubDate>Sat, 05 Mar 2016 17:28:15 -0500</pubDate>
+      <guid>//localhost:1313/tracknut/track-physics-1/</guid>
+      <description>&lt;p&gt;Three questions frequently crop up around the physics of riding around track bankings:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What kind of G-forces do riders experience when riding though bankings at speed?&lt;/li&gt;&#xA;&lt;li&gt;A low speeds a rider &amp;ldquo;leans out&amp;rdquo; in the banking as gravity pushes them down the track. A high speeds a rider leans in as the centrifugal force tends to push them up the track. There is a speed when a rider transitions between these two states, a speed when the bike is exactly orthogonal to (i.e. perpendicular to, or at 90 degrees to) the surface of the track. What is this speed?&lt;/li&gt;&#xA;&lt;li&gt;What is the minimum speed you need to ride to avoid &amp;ldquo;falling off&amp;rdquo; in a banking?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The material that follows is based on two excellent posts on the subject:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Tubeless? Things you Need to Know!</title>
+      <link>//localhost:1313/cyclingsafety/tubeless_caveats/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/tubeless_caveats/</guid>
+      <description>&lt;p&gt;Many recreational cyclists are using tubeless tires without understanding how to maintain them, or their downsides.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sealant must be replaced every few months, at least once a season.&lt;/li&gt;&#xA;&lt;li&gt;Sealant does not always seal a hole, especially if the hole is larger than a few mm.&lt;/li&gt;&#xA;&lt;li&gt;You need to carry either a spare tube (and a tool to remove the tubeless value) or tire plugs and a small tube of sealant&lt;/li&gt;&#xA;&lt;li&gt;Having sealant spewing out can get really messy!&lt;/li&gt;&#xA;&lt;li&gt;You can&amp;rsquo;t go about 75psi with tubeless tires, so tubeless and skinny tires don&amp;rsquo;t work together. Jay Heins of Hene Herse, who makes some of the world&amp;rsquo;s best tubeless tires says don&amp;rsquo;t go about 6-psi.&lt;/li&gt;&#xA;&lt;li&gt;Valve core clogs&lt;/li&gt;&#xA;&lt;li&gt;Tubeless tires are much more diufficult to install and remove. It can be difficult to get the bead to seal on the rim - often rapid inflation with a special &amp;ldquo;charger pump&amp;rdquo; or an air compressor is required.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.renehersecycles.com/the-trouble-with-road-tubeless/&#34;&gt;The trouble with road tubeless&lt;/a&gt; - Rene Herse&#xA;&lt;a href=&#34;https://road.cc/content/feature/9-things-they-dont-tell-you-about-tubeless-tyres-257746&#34;&gt;Nine things they don&amp;rsquo;t tell you about tuneless tires&lt;/a&gt; - road.cc&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Markdown Image Handling</title>
+      <link>//localhost:1313/tech/markdown-image-handling/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tech/markdown-image-handling/</guid>
+      <description>The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.</description>
+    </item>
+    <item>
+      <title>Hugo&#39;s Markdown Formatting Tests</title>
+      <link>//localhost:1313/playground/hugo-markdown-test/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/playground/hugo-markdown-test/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is a reference for Hugo&amp;rsquo;s version of markdown as well as Hugo&amp;rsquo;s processing.&#xA;Here are a few good Markdown references and tutorials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;Goldmark&lt;/a&gt; - Goldmark is a markdown processor written in go, which is used by Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia Markdown entry&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; - the markdown &amp;ldquo;standard&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Template Page</title>
+      <link>//localhost:1313/playground/template/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/playground/template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The world is getting better</title>
+      <link>//localhost:1313/hidden/better_world/</link>
+      <pubDate>Wed, 22 Sep 2021 21:41:45 -0400</pubDate>
+      <guid>//localhost:1313/hidden/better_world/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m reading &lt;a href=&#34;https://petersinger.info/&#34;&gt;Peter Singer&lt;/a&gt;&amp;rsquo;s book &lt;a href=&#34;https://www.thelifeyoucansave.org/&#34;&gt;The Life You can Save&lt;/a&gt; (you can freely download the book from the website), in which he makes a profound observation. He challenges the assumption about our behavior that permeates western, and particularly American, culture: &amp;ldquo;the norm of self-interest&amp;rdquo;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Alexis de Tocqueville, that sharp observer of the American psyche during the formative years of the United States, noticed the norm even then: “Americans,” he wrote in 1835, “enjoy explaining almost every act of their lives on the principle of self-interest.” He thought that in doing this they were underplaying their own benevolence, because in his view Americans were, just like everyone else, moved by spontaneous natural impulses to help others. But in contrast to Europeans, Americans, he found, were “hardly prepared to admit that they do give way to emotions of this sort.”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Timeless Rules of Software Development</title>
+      <link>//localhost:1313/hidden/timeless-software-dev/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/hidden/timeless-software-dev/</guid>
+      <description>&lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fail Fast&lt;/li&gt;&#xA;&lt;li&gt;Be Paranoid&lt;/li&gt;&#xA;&lt;li&gt;Avoid inserting defects&lt;/li&gt;&#xA;&lt;li&gt;Find/Fix Defects Close to where they are inserted&lt;/li&gt;&#xA;&lt;li&gt;Accept and deal with the 4Fs of war - friction, fog, fluidity, fatigue&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Tires - Be Faster, Safer, More Comfortable</title>
+      <link>//localhost:1313/cyclingsafety/tire-safety/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/tire-safety/</guid>
+      <description>The most important contact point on a bike is “where the rubber meets the road”. Tires may be the most important component on your bike. The right tire at the right pressure makes a huge difference to your safety - your “grip” on the road - as well as to your comfort, and efficiency. You can have it all with wider tires.</description>
+    </item>
+    <item>
+      <title>How to Crash</title>
+      <link>//localhost:1313/cyclingsafety/how_to_crash/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/how_to_crash/</guid>
+      <description>In this article we’ll discuss how to minimize injury if to &lt;strong&gt;do&lt;/strong&gt; crash. Of course there are no guarantees, but there are techniques you can use to minimize injuries when you crash. There are 3 aspects to minimizing the seriousness of your injuries - Fitness, Technique and Training.</description>
+    </item>
+    <item>
+      <title>How not to Fall (at low speed)</title>
+      <link>//localhost:1313/cyclingsafety/how_not_to_fall/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/how_not_to_fall/</guid>
+      <description>Many serious cycling injuries happen when cyclists are slowing and preparing to stop. There are techniques we can use to prevent low speed falls. While this may seem like a lot of effort, it’s much preferable to broken bones!</description>
+    </item>
+    <item>
+      <title>Every Cyclist Crashes - Even You!</title>
+      <link>//localhost:1313/cyclingsafety/everyone_crashes/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/everyone_crashes/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;“&lt;strong&gt;Given the amount of time I spend on a bike, I recognize there is a significant probability that my cycling career, or even my life, could end as a result of a serious cycling accident&lt;/strong&gt;”.&#xA;As a cyclist, the risk of injury requiring hospital treatment  (per km travelled) is significantly greater than when in a motor vehicle. The more you cycle, the greater the risk - &lt;strong&gt;You will crash!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>After You Crash &amp; Your Helmet Saves Your Head!</title>
+      <link>//localhost:1313/cyclingsafety/after_you_crash/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cyclingsafety/after_you_crash/</guid>
+      <description>After a crash, the adrenaline will be pumping… an injured rider will not necessarily feel pain, and often will say “I’m OK” and want to get back on their bike. NO! Take it slow and do a thorough check - there&amp;rsquo;s a post-crash list to follow.</description>
+    </item>
+    <item>
+      <title>Markdown Formatting</title>
+      <link>//localhost:1313/playground/markdown-formatting/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/playground/markdown-formatting/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;h2 id=&#34;many-flavours-of-markdown&#34;&gt;Many Flavours of Markdown&lt;/h2&gt;&#xA;&lt;p&gt;There are many variants of Markdown formats, and each processor may support a range of extensions, and interpret the Markdown specifications in somwhat different ways. The main formats include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;(http://daringfireball.net/projects/markdown/syntax)&#34;&gt;Markdown&lt;/a&gt; - this is the classic orginal version&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://fletcher.github.com/peg-multimarkdown/mmd-manual.pdf&#34;&gt;Multimarkdown&lt;/a&gt; - the orginal extension to Markdown&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://github.github.com/github-flavored-markdown/&#34;&gt;GitHub Flavored Markdown&lt;/a&gt; -a small set of extension to Markdown defined by GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://kramdown.rubyforge.org/syntax.html&#34;&gt;Kramdown&lt;/a&gt; - extensive set of extensions based on &lt;a href=&#34;http://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP markdown Extra package&lt;/a&gt; and &lt;a href=&#34;http://maruku.rubyforge.org&#34;&gt;Maruku&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown&#34;&gt;Pandoc&lt;/a&gt; - extensive set of extensions, but strays from the original markdown syntax and extensions somewhat&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;markdown-processors&#34;&gt;Markdown Processors&lt;/h2&gt;&#xA;&lt;p&gt;There are also many different Markdown processors, each with their own quirks. See the section [Other Markdown Processors and Formats] for details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo&#39;s Markdown Extensions</title>
+      <link>//localhost:1313/playground/testpage/</link>
+      <pubDate>Sun, 20 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/playground/testpage/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article focuses on markdown as supported by Hugo and Pandoc.&#xA;Here are a few good Markdown references and tutorials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia Markdown entry&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; - the markdown &amp;ldquo;standard&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hugos-markdown&#34;&gt;Hugo&amp;rsquo;s Markdown&lt;/h3&gt;&#xA;&lt;p&gt;Hugo uses the &lt;a href=&#34;https://github.com/yuin/goldmark/&#34;&gt;GoldMark&lt;/a&gt; as it&amp;rsquo;s default Markdown processor. Goldmark supports the &lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; standard, along with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tables, Strikethrough, Autolinks, TaskLists from &lt;a href=&#34;https://github.github.com/gfm/&#34;&gt;GitHub-Flavored Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Definition Lists and Footnotes from &lt;a href=&#34;https://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP Markdown Extra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Special typographic characters from &lt;a href=&#34;https://daringfireball.net/projects/smartypants/&#34;&gt;SmartyPants&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Embedded HTML may be enabled in the &lt;a href=&#34;https://gohugo.io/getting-started/configuration-markup/&#34;&gt;Hugo Site Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Attribute lists on headings and block elements to add styling. See &lt;a href=&#34;https://gohugo.io/getting-started/&#34;&gt;Hugo Site Configuration&lt;/a&gt; and &lt;a href=&#34;https://www.brycewray.com/posts/2021/02/new-hugo-easier-writing/&#34;&gt;Easier writing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hugo Goldmark also supports:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using ASCIIMath and MathJax</title>
+      <link>//localhost:1313/playground/mathtest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/playground/mathtest/</guid>
+      <description>&lt;p&gt;This page tests and documents using MathJax, Latex and AsciiMath with Hugo and markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;getting-a-markdown-processor-to-ignore-markup&#34;&gt;Getting a Markdown Processor to Ignore Markup&lt;/h2&gt;&#xA;&lt;p&gt;MathJax, AsciiMath, and similar processors use special markup characters in the the html file. Often these characters overlap with markdown&amp;rsquo;s markup, and the markdown processor will mess things up. There are a number of options:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

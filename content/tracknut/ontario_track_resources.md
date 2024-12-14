@@ -3,6 +3,7 @@ title: "Ontario Track Cycling Resources"
 date: "2016-02-22"
 categories:
   - "Track Cycling"
+weight: 20
 tags:
 draft: false
 ---

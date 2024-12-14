@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on It&#39;s All Downhill From Here</title>
+    <link>//localhost:1313/tags/physics/</link>
+    <description>Recent content in Physics on It&#39;s All Downhill From Here</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Dec 2022 21:49:18 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Physics of Riding on Track Bankings</title>
+      <link>//localhost:1313/tracknut/track-physics-1/</link>
+      <pubDate>Sat, 05 Mar 2016 17:28:15 -0500</pubDate>
+      <guid>//localhost:1313/tracknut/track-physics-1/</guid>
+      <description>&lt;p&gt;Three questions frequently crop up around the physics of riding around track bankings:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What kind of G-forces do riders experience when riding though bankings at speed?&lt;/li&gt;&#xA;&lt;li&gt;A low speeds a rider &amp;ldquo;leans out&amp;rdquo; in the banking as gravity pushes them down the track. A high speeds a rider leans in as the centrifugal force tends to push them up the track. There is a speed when a rider transitions between these two states, a speed when the bike is exactly orthogonal to (i.e. perpendicular to, or at 90 degrees to) the surface of the track. What is this speed?&lt;/li&gt;&#xA;&lt;li&gt;What is the minimum speed you need to ride to avoid &amp;ldquo;falling off&amp;rdquo; in a banking?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The material that follows is based on two excellent posts on the subject:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

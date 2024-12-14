@@ -4,6 +4,7 @@ draft = true
 image = ""
 tags = ["physics"]
 categories = ["Track Cycling"]
+weight = 80
 title = "The Physics of Riding on Track Bankings"
 mathjax = true
 math = true

@@ -22,7 +22,7 @@
 	{{- end }}
 	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
 	<link rel="canonical" href="{{ .Permalink }}">
-	{{- if not .Site.IsServer }}
+	{{- if not hugo.IsServer }}
 		{{ partial "google_analytics.html" . }}
 		{{ partial "google_adsense.html" . }}
 	{{- end }}

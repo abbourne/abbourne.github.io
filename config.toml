@@ -6,12 +6,14 @@ languageCode = "en-us"
 enableRobotsTXT = true
 title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version. 
-paginate = "10" # Number of posts per page
 summaryLength = 50
 enableEmoji = true
 enableGitInfo = true
 #disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[pagination]
+  pagerSize = 10 # Number of posts per page
 
 [Params]
   description = "Bill Bourne's personal blog about cycling and stuff" # Site description. Used in meta description
@@ -40,8 +42,13 @@ enableGitInfo = true
     name = "Cycling"
     url = "/categories/cycling-safety/"
   [[menu.main]]
+    identifier = "trackcycling"
+    weight = 6
+    name = "Track Cycling"
+    url = "/categories/track-cycling/"
+  [[menu.main]]
     identifier = "technology"
-    weight = 4
+    weight = 15
     name = "Technology"
     url = "/categories/technology/"
   [[menu.main]]

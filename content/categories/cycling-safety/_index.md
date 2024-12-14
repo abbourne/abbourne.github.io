@@ -1,5 +1,5 @@
 ---
-title: Cycling Education & Safety
+title: Cycling Education
 description: A series of articles cycling safety, skills, and equipment for experienced cyclists
 keywords:
   - Cycling

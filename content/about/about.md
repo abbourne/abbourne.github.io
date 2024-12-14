@@ -19,6 +19,7 @@ When I was working, I had a blog where I wrote technology articles. This website
 ## "It's All Downhill From Here"...
 
 {{< figure src="../images/gravel-calls.jpeg" width="250" alt="Gravel Calls" class="left" >}}
+
 As an active senior citizen cyclist, I find the double entendre really appropriate.
 
 On one hand, the experience of getting older - the inevitable, gradual slowing down, the increase in aches & pains, the loss of flexibility, the decrease in balance, the forgetfulness. I like to say that my objective in training now is to "_get slower less quickly_"! In this sense, "going downhill" is bad.

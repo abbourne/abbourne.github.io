@@ -4,6 +4,7 @@ date: "2016-02-21"
 image: "/graphics/Milton-Dropin-2-Header.jpg"
 categories:
   - "Track Cycling"
+weight: 15
 tags:
 draft: false
 ---
