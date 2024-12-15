@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on It's All Downhill From Here</title><link>/tags/software/</link><description>Recent content in Software on It's All Downhill From Here</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Timeless Rules of Software Development</title><link>/hidden/timeless-software-dev/</link><pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate><guid>/hidden/timeless-software-dev/</guid><description>Rules Fail Fast Be Paranoid Avoid inserting defects Find/Fix Defects Close to where they are inserted Accept and deal with the 4Fs of war - friction, fog, fluidity, fatigue</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on It's All Downhill From Here</title><link>/tags/software/</link><description>Recent content in Software on It's All Downhill From Here</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 16 Dec 2022 13:34:28 -0500</lastBuildDate><atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Timeless Rules of Software Development</title><link>/hidden/timeless-software-dev/</link><pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate><guid>/hidden/timeless-software-dev/</guid><description>&lt;h2 id="rules">Rules&lt;/h2>
+&lt;ul>
+&lt;li>Fail Fast&lt;/li>
+&lt;li>Be Paranoid&lt;/li>
+&lt;li>Avoid inserting defects&lt;/li>
+&lt;li>Find/Fix Defects Close to where they are inserted&lt;/li>
+&lt;li>Accept and deal with the 4Fs of war - friction, fog, fluidity, fatigue&lt;/li>
+&lt;/ul></description></item></channel></rss>
