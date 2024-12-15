@@ -1,10 +1,11 @@
 ---
 title: "Velodrome Basics"
 date: "2016-02-24"
+modified: "2020-01-15"
 image: "img/Milton-Dropin-2-Header.jpg"
 categories: ["Track Cycling"]
 tags: ["velodrome"]
-weight: 10
+# weight: 10
 draft: false
 ---
 

@@ -15,4 +15,4 @@ keywords:
 
 It's a ongoing work in progress and many notes may be rough or unfinished.
 
-# Archive of all posts (by date):
+# All Articles:

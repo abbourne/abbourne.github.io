@@ -1,10 +1,11 @@
 +++
-date = "2016-03-05T17:28:15-05:00"
-draft = true
+date = "2016-01-05"
+modified = "2020-01-12"
+draft = false
 image = ""
-tags = ["physics"]
+tags = ["physics", "velodrome"]
 categories = ["Track Cycling"]
-weight = 80
+# weight = 80
 title = "The Physics of Riding on Track Bankings"
 mathjax = true
 math = true
@@ -17,6 +18,7 @@ Three questions frequently crop up around the physics of riding around track ban
 3. What is the minimum speed you need to ride to avoid "falling off" in a banking?
 
 The material that follows is based on two excellent posts on the subject:
+<!--more-->
 
 * [G Force](http://alex-cycle.blogspot.ca/2015/01/g-force.html) from [Alex's Cycle Blog](http://alex-cycle.blogspot.ca/). This is a great blog with lots of emperical data on training, aerodynamics, and other cycling topics. Highly recommended!
 * [The Physics Of Cycling: Why Does A Velodrome's Sides Need To Be Banked?](http://theaftermatter.blogspot.ca/2012/05/physics-of-cycling-why-does-velodromes.html)

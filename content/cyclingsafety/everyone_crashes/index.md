@@ -21,7 +21,7 @@ draft: false
 As a cyclist, the risk of injury requiring hospital treatment  (per km travelled) is significantly greater than when in a motor vehicle. The more you cycle, the greater the risk - **You will crash!**
 
 There’s three options:
-
+<!--more-->
 1. Ignore the risk.
 2. Worry, be anxious and fearful. Ride less, and curtail some of the more risky riding that I love.
 3. Turn the concern into action, and learn to be safer on the road. Move the odds in my favour.

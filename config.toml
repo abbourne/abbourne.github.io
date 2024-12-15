@@ -6,9 +6,9 @@ languageCode = "en-us"
 enableRobotsTXT = true
 title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version. 
-summaryLength = 50
+summaryLength = 100
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 #disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
@@ -123,7 +123,7 @@ enableGitInfo = true
   facebook = "abbourne"
   linkedin = "williambourne"
   # github = "abbourne"
-  email = "wbbourne@gmail.com"
+  email = "bill@tracknut.ca"
   strava = "athletes/123225"
 
 [[Params.widgets.social.custom]]

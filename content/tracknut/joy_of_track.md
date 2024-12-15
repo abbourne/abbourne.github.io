@@ -1,17 +1,19 @@
 ---
 title: "The Joy of Recreational Track Cycling"
 date: "2016-02-24"
+modified: "2020-01-16"
 image: "/graphics/Milton-Dropin-1-Header.jpg"
 categories:
   - "Track Cycling"
-weight: 5
-tags:
+tags: ["velodrome"]
+# weight: 5
 draft: false
 ---
 
 In the depths of winter, options for cycling become less appealing… Do I ride outdoors in the cold, wet, and wind? Or sweat it out indoors on a trainer, listening to music or a video to combat boredom?
 
 There’s another option - Indoor velodromes! Living in Ottawa, there are now three excellent velodromes I can frequent:
+<!--more-->
 
 * [Mattamy National Cycling Centre](http://www.mattamynationalcyclingcentre.ca/en/index.asp) built in Milton, northwest of Toronto for the Pan-Am Games in 2015.
 * [Sylvian Adams Multisport Velodrome](https://centrenationalbromont.com/velodrome-multisports/) at the Centre National de Cyclisme de Bromont. In Bromont southeast of Montreal. This is a brand new facility, built around the core frame of the velodrome used for the 1996 Olympics in Atlanta.

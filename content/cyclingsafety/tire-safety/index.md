@@ -21,7 +21,7 @@ draft: false
 In cycling, “contact points” are critical: bum on saddle, hands on handlebars, feet on pedals. But the most important one of all is “where the rubber meets the road”. Tires may be the most important component on your bike. The right tire at the right pressure makes a huge difference to your safety - your “grip” on the road - as well as to your comfort, and efficiency.
 
 Diving into detail on tires, with a focus on tire width, tire pressure, and tire quality, we will discover:
-
+<!--more-->
 * Wider tires are just as fast as narrow ones, but safer and more comfortable
 * Tire pressure doesn’t matter too much on smooth roads, on rough roads lower pressures are more efficient
 * Tire quality, specifically the suppleness of the casing matters _a lot_

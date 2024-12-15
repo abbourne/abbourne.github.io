@@ -1,10 +1,11 @@
 ---
 title: "Ontario Track Cycling Resources"
 date: "2016-02-22"
+modified: "2020-01-13"
 categories:
   - "Track Cycling"
-weight: 20
-tags:
+tags: ["velodrome"]
+# weight: 20
 draft: false
 ---
 

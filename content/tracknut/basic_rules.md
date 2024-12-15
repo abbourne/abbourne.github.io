@@ -1,11 +1,12 @@
 ---
 title: "Essential Rules of the Track"
 date: "2016-02-21"
+modified: "2020-01-14"
 image: "/graphics/Milton-Dropin-2-Header.jpg"
 categories:
   - "Track Cycling"
-weight: 15
-tags:
+tags: ["velodrome"]
+# weight: 15
 draft: false
 ---
 
