@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on It&#39;s All Downhill From Here</title>
-    <link>//localhost:1313/categories/technology/</link>
+    <link>/categories/technology/</link>
     <description>Recent content in Technology on It&#39;s All Downhill From Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Markdown Image Handling</title>
-      <link>//localhost:1313/tech/markdown-image-handling/</link>
+      <link>/tech/markdown-image-handling/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tech/markdown-image-handling/</guid>
+      <guid>/tech/markdown-image-handling/</guid>
       <description>The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.</description>
     </item>
   </channel>

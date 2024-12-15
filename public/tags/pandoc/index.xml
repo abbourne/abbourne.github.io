@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandoc on It&#39;s All Downhill From Here</title>
-    <link>//localhost:1313/tags/pandoc/</link>
+    <link>/tags/pandoc/</link>
     <description>Recent content in Pandoc on It&#39;s All Downhill From Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Dec 2022 21:50:35 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Dec 2024 15:03:58 -0500</lastBuildDate>
+    <atom:link href="/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Markdown Image Handling</title>
-      <link>//localhost:1313/tech/markdown-image-handling/</link>
+      <link>/tech/markdown-image-handling/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tech/markdown-image-handling/</guid>
+      <guid>/tech/markdown-image-handling/</guid>
       <description>The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.</description>
     </item>
     <item>
       <title>Hugo&#39;s Markdown Formatting Tests</title>
-      <link>//localhost:1313/playground/hugo-markdown-test/</link>
+      <link>/playground/hugo-markdown-test/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/playground/hugo-markdown-test/</guid>
+      <guid>/playground/hugo-markdown-test/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is a reference for Hugo&amp;rsquo;s version of markdown as well as Hugo&amp;rsquo;s processing.&#xA;Here are a few good Markdown references and tutorials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;Goldmark&lt;/a&gt; - Goldmark is a markdown processor written in go, which is used by Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia Markdown entry&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; - the markdown &amp;ldquo;standard&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Markdown Formatting</title>
-      <link>//localhost:1313/playground/markdown-formatting/</link>
+      <link>/playground/markdown-formatting/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/playground/markdown-formatting/</guid>
+      <guid>/playground/markdown-formatting/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;h2 id=&#34;many-flavours-of-markdown&#34;&gt;Many Flavours of Markdown&lt;/h2&gt;&#xA;&lt;p&gt;There are many variants of Markdown formats, and each processor may support a range of extensions, and interpret the Markdown specifications in somwhat different ways. The main formats include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;(http://daringfireball.net/projects/markdown/syntax)&#34;&gt;Markdown&lt;/a&gt; - this is the classic orginal version&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://fletcher.github.com/peg-multimarkdown/mmd-manual.pdf&#34;&gt;Multimarkdown&lt;/a&gt; - the orginal extension to Markdown&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://github.github.com/github-flavored-markdown/&#34;&gt;GitHub Flavored Markdown&lt;/a&gt; -a small set of extension to Markdown defined by GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://kramdown.rubyforge.org/syntax.html&#34;&gt;Kramdown&lt;/a&gt; - extensive set of extensions based on &lt;a href=&#34;http://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP markdown Extra package&lt;/a&gt; and &lt;a href=&#34;http://maruku.rubyforge.org&#34;&gt;Maruku&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown&#34;&gt;Pandoc&lt;/a&gt; - extensive set of extensions, but strays from the original markdown syntax and extensions somewhat&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;markdown-processors&#34;&gt;Markdown Processors&lt;/h2&gt;&#xA;&lt;p&gt;There are also many different Markdown processors, each with their own quirks. See the section [Other Markdown Processors and Formats] for details.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo&#39;s Markdown Extensions</title>
-      <link>//localhost:1313/playground/testpage/</link>
+      <link>/playground/testpage/</link>
       <pubDate>Sun, 20 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/playground/testpage/</guid>
+      <guid>/playground/testpage/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article focuses on markdown as supported by Hugo and Pandoc.&#xA;Here are a few good Markdown references and tutorials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia Markdown entry&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; - the markdown &amp;ldquo;standard&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hugos-markdown&#34;&gt;Hugo&amp;rsquo;s Markdown&lt;/h3&gt;&#xA;&lt;p&gt;Hugo uses the &lt;a href=&#34;https://github.com/yuin/goldmark/&#34;&gt;GoldMark&lt;/a&gt; as it&amp;rsquo;s default Markdown processor. Goldmark supports the &lt;a href=&#34;https://commonmark.org/&#34;&gt;CommonMark&lt;/a&gt; standard, along with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tables, Strikethrough, Autolinks, TaskLists from &lt;a href=&#34;https://github.github.com/gfm/&#34;&gt;GitHub-Flavored Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Definition Lists and Footnotes from &lt;a href=&#34;https://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP Markdown Extra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Special typographic characters from &lt;a href=&#34;https://daringfireball.net/projects/smartypants/&#34;&gt;SmartyPants&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Embedded HTML may be enabled in the &lt;a href=&#34;https://gohugo.io/getting-started/configuration-markup/&#34;&gt;Hugo Site Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Attribute lists on headings and block elements to add styling. See &lt;a href=&#34;https://gohugo.io/getting-started/&#34;&gt;Hugo Site Configuration&lt;/a&gt; and &lt;a href=&#34;https://www.brycewray.com/posts/2021/02/new-hugo-easier-writing/&#34;&gt;Easier writing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hugo Goldmark also supports:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using ASCIIMath and MathJax</title>
-      <link>//localhost:1313/playground/mathtest/</link>
+      <link>/playground/mathtest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/playground/mathtest/</guid>
+      <guid>/playground/mathtest/</guid>
       <description>&lt;p&gt;This page tests and documents using MathJax, Latex and AsciiMath with Hugo and markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;getting-a-markdown-processor-to-ignore-markup&#34;&gt;Getting a Markdown Processor to Ignore Markup&lt;/h2&gt;&#xA;&lt;p&gt;MathJax, AsciiMath, and similar processors use special markup characters in the the html file. Often these characters overlap with markdown&amp;rsquo;s markup, and the markdown processor will mess things up. There are a number of options:&lt;/p&gt;</description>
     </item>
   </channel>

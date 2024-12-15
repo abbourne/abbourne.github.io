@@ -2,136 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/about/colophon/</loc>
+    <loc>/about/colophon/</loc>
     <lastmod>2022-12-31T11:18:41-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/joy_of_track/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+    <loc>/tracknut/joy_of_track/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/clubs/</loc>
+    <loc>/about/clubs/</loc>
     <lastmod>2022-12-29T21:50:35-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/about_velodromes/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+    <loc>/tracknut/about_velodromes/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/aboutbillbourne/</loc>
+    <loc>/about/aboutbillbourne/</loc>
     <lastmod>2022-12-29T21:50:35-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/basic_rules/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+    <loc>/tracknut/basic_rules/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/about/</loc>
-    <lastmod>2022-12-31T11:18:41-05:00</lastmod>
+    <loc>/about/about/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/ontario_track_resources/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+    <loc>/tracknut/ontario_track_resources/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/track-physics-1/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/tags/equipment/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/cyclingsafety/tubeless_caveats/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/tech/markdown-image-handling/</loc>
+    <lastmod>2022-12-29T21:50:35-05:00</lastmod>
+  </url><url>
+    <loc>/playground/hugo-markdown-test/</loc>
     <lastmod>2022-12-19T21:49:18-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/tags/pandoc/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/playground/template/</loc>
+    <lastmod>2022-12-22T20:47:05-05:00</lastmod>
+  </url><url>
+    <loc>/hidden/better_world/</loc>
+    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
+  </url><url>
+    <loc>/tags/software/</loc>
+    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
+  </url><url>
+    <loc>/hidden/timeless-software-dev/</loc>
+    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
+  </url><url>
+    <loc>/cyclingsafety/tire-safety/</loc>
     <lastmod>2022-12-31T14:41:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/equipment/</loc>
+    <loc>/tags/crashing/</loc>
     <lastmod>2022-12-31T14:41:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/cyclingsafety/tubeless_caveats/</loc>
-    <lastmod>2022-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/cyclingsafety/how_to_crash/</loc>
     <lastmod>2022-12-31T14:41:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hugo/</loc>
-    <lastmod>2022-12-29T21:50:35-05:00</lastmod>
+    <loc>/cyclingsafety/how_not_to_fall/</loc>
+    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tech/markdown-image-handling/</loc>
-    <lastmod>2022-12-29T21:50:35-05:00</lastmod>
+    <loc>/cyclingsafety/everyone_crashes/</loc>
+    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/playground/hugo-markdown-test/</loc>
+    <loc>/cyclingsafety/after_you_crash/</loc>
+    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
+  </url><url>
+    <loc>/tags/velodrome/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/playground/markdown-formatting/</loc>
+    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+  </url><url>
+    <loc>/playground/testpage/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
+  </url><url>
+    <loc>/hidden/</loc>
+    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
+  </url><url>
+    <loc>/playground/</loc>
+    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
+  </url><url>
+    <loc>/tech/</loc>
     <lastmod>2022-12-19T21:49:18-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
+    <loc>/about/</loc>
     <lastmod>2022-12-29T21:50:35-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pandoc/</loc>
-    <lastmod>2022-12-29T21:50:35-05:00</lastmod>
+    <loc>/categories/cycling-safety/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/playground/template/</loc>
+    <loc>/cyclingsafety/</loc>
     <lastmod>2022-12-22T20:47:05-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/hidden/better_world/</loc>
-    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/software/</loc>
-    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/hidden/timeless-software-dev/</loc>
-    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/tire-safety/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/crashing/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/how_to_crash/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/how_not_to_fall/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/everyone_crashes/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/after_you_crash/</loc>
-    <lastmod>2022-12-31T14:41:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/physics/</loc>
-    <lastmod>2022-12-19T21:49:18-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/velodrome/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/playground/markdown-formatting/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/playground/testpage/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/</loc>
-    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/hidden/</loc>
-    <lastmod>2022-12-16T13:34:28-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/playground/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tech/</loc>
-    <lastmod>2022-12-19T21:49:18-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/about/</loc>
-    <lastmod>2022-12-29T21:50:35-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/cycling-safety/</loc>
-    <lastmod>2022-12-31T11:18:41-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/cyclingsafety/</loc>
+    <loc>/categories/technology/</loc>
     <lastmod>2022-12-22T20:47:05-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/technology/</loc>
-    <lastmod>2022-12-22T20:47:05-05:00</lastmod>
+    <loc>/categories/track-cycling/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/track-cycling/</loc>
-    <lastmod>2022-12-22T20:47:05-05:00</lastmod>
+    <loc>/tracknut/</loc>
+    <lastmod>2024-12-14T15:03:58-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tracknut/</loc>
+    <loc>/playground/mathtest/</loc>
     <lastmod>2022-12-16T12:52:17-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/playground/mathtest/</loc>
-    <lastmod>2022-12-16T12:52:17-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2022-12-22T20:47:05-05:00</lastmod>
   </url>
 </urlset>
