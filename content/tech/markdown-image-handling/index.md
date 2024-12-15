@@ -4,7 +4,7 @@ date: 2022-12-17
 Description: The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.
 lead: This article is under construction
 summary: The article discusses the details of how Goldmark Markdown and Hugo handles images, along with how to add attributes such a positioning and sizing when using images in a Hugo Markdown file.
-tags: [Markdown, Pandoc, Hugo]
+tags: [Markdown, Hugo]
 categories: [Technology]
 thumbnail: "/img/hugo-logo-235px.png"
 postthumbvisible: true

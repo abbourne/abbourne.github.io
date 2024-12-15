@@ -5,7 +5,8 @@ description: ""
 keywords: [ "cycling", "bikes", "education", "tires", "maintenance"]
 date: "2022-12-31"
 summary: ""
-thumbnail: ""
+thumbnail: "./img/tubeless_fail.jpg"
+postthumbvisible: true
 categories: ["Cycling Safety"]
 tags: ["Equipment"]
 draft: false
