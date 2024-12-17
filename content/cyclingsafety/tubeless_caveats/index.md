@@ -4,9 +4,8 @@ lead: "You need this knowledge to avoid being stranded on the road"
 description: ""
 keywords: [ "cycling", "bikes", "education", "tires", "maintenance"]
 date: "2022-12-31"
-summary: ""
 thumbnail: "./img/tubeless_fail.jpg"
-postthumbvisible: true
+postthumbvisible: false
 categories: ["Cycling Safety"]
 tags: ["Equipment"]
 draft: false
@@ -15,7 +14,7 @@ draft: false
 Many recreational cyclists are using tubeless tires without understanding how to maintain them, or their downsides.
 
 - Sealant must be replaced every few months, at least once a season.
-- Sealant does not always seal a hole, especially if the hole is larger than a few mm. 
+- Sealant does not always seal a hole, especially if the hole is larger than a few mm.
 - You need to carry either a spare tube (and a tool to remove the tubeless value) or tire plugs and a small tube of sealant
 - Having sealant spewing out can get really messy!
 - You can't go about 75psi with tubeless tires, so tubeless and skinny tires don't work together. Jay Heins of Hene Herse, who makes some of the world's best tubeless tires says don't go about 6-psi.

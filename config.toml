@@ -8,7 +8,7 @@ title = "It's All Downhill From Here"
 theme = "mainroad2" # Mainroad2 is my customized version. 
 summaryLength = 100
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = false  # When enabled the git modification date overrides the lastmod front matter parameter
 #disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
@@ -30,7 +30,7 @@ enableGitInfo = false
   mathjax = false  # turn on for pages that need it.
   # Show thumbnail for list and post pages. This can be overridden by each page
   listthumbvisible = true
-  postthumbvisible = false
+  postthumbvisible = true
 
   # subtitle = "Bill Bourne's Blog"  # when using Highway theme
   # logo = "img/bicycle-round-yellow.png" ## when using Highway theme
@@ -90,14 +90,25 @@ enableGitInfo = false
     [markup.goldmark.renderer]
       unsafe= true     # Allow HTML in markdown input files
     [markup.goldmark.parser]
+      # Allows custom elements to be placed on markdown image tags 
       wrapStandAloneImageWithinParagraph = false 
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.extras]
+        # Enable highlighted text with ==text==
+        [markup.goldmark.extensions.extras.mark]
+          enable = true
   [markup.highlight]
     guessSyntax = true
     style = "monokailight"
     noClasses = true  # Creates styling inline, otherwise inserts css classes
+
+# Changed the security model to allow pandoc to run
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^pandoc$']
 
 [Params.logo]
   subtitle = "Bill Bourne's Blog"
