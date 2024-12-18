@@ -2,7 +2,6 @@
 title: "My Clubs and Activities"
 description: "Bill Bourne's cycling clubs and other activities"
 weight: 5
-thumbnail: ""
 type: doc
 ---
 

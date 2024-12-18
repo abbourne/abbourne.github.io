@@ -8,7 +8,6 @@ keywords:
   - "Track Cycling"
   - "Technology"
 weight: 15
-thumbnail: 
 type: doc
 ---
 

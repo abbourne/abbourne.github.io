@@ -5,7 +5,6 @@ keywords:
   - "Hugo"
   - "Markdown"
 weight: 3
-thumbnail: "/img/hugo-logo-200px.png"
 type: doc
 ---
 

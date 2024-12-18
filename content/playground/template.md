@@ -3,9 +3,9 @@ title: "Template for a Post article" # also placed in pages <head> for SEO
 lead: "You need this knowledge to avoid being stranded on the road" # Mainroad theme - subtitle
 description: "" # placed in <head> tag for SEO
 summary: "This is a summary" #If exists, is used as the summary text in lists. 
-keywords: [ "cycling", "bikes", "education", "tires", "maintenance"] # placed in <head> tag for SEO
-categories: ["Cycling Safety"] #Mainroad Theme parameter
-tags: ["Equipment"] #Mainroad theme parameter
+keywords: [] # placed in <head> tag for SEO
+categories: [] #Mainroad Theme parameter
+tags: [] #Mainroad theme parameter
 date: "2022-12-31"
 modified: "2024-12-16" # sets lastmod date, determines list ordering. Overridden if enableGitInfo = true
 thumbnail: "/img/hugo-logo-235px.png"  #an image that looks good when display 200px on a side
