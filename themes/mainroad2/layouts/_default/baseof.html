@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
@@ -27,20 +28,29 @@
 
 	{{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+	{{/* MOD Run custom stylesheets through template processor */}}
 	{{ range .Site.Params.customCSS -}}
-	<link rel="stylesheet" href="{{ . | relURL }}">
+	{{ $custom := resources.Get . | resources.ExecuteAsTemplate . . -}}
+	<link rel="stylesheet" href="{{ $custom.RelPermalink }}">
 	{{- end }}
 
 	{{- with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+
 	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
 	{{- if not hugo.IsServer }}
-		{{- if hasPrefix .Site.GoogleAnalytics "G-" }}
+		{{- if hasPrefix .Site.Config.Services.GoogleAnalytics.ID "G-" }}
 		{{ template "_internal/google_analytics.html" . }}
 		{{- else }}
-	
+		
 		{{- end }}
 	{{- end }}
 </head>
