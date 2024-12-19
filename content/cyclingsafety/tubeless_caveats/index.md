@@ -4,8 +4,9 @@ lead: "You need this knowledge to avoid being stranded on the road"
 description: ""
 keywords: [ "cycling", "bikes", "education", "tires", "maintenance"]
 date: "2022-12-31"
+lastmod: "2024-12-07"
 thumbnail: "./img/tubeless_fail.jpg"
-postthumbvisible: false
+postthumbvisible: true
 categories: ["Cycling Safety"]
 tags: ["Equipment"]
 draft: false
