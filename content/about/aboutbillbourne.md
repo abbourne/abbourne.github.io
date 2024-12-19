@@ -2,6 +2,7 @@
 title: About Bill Bourne - Life Behind Bars
 weight: 10
 description: All about who I am and what I do
+categories: ["About"]
 draft: false
 type: doc
 ---

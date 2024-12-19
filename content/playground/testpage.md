@@ -2,9 +2,10 @@
 layout: page
 title: Hugo's Markdown Extensions
 date: 2013-01-20
+categories: ["Playground"]
 tags: [Markdown, Pandoc, Hugo]
 # mathjaxPath: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-mathjaxConfig: TeX-MML-AM_CHTML
+# mathjaxConfig: TeX-MML-AM_CHTML
 mathjax: true
 ---
 

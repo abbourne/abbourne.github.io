@@ -1,5 +1,6 @@
 ---
 title: "Using ASCIIMath and MathJax"
+categories: ["Playground"]
 tags: [Markdown, Pandoc]
 mathjax: true
 draft: false

@@ -4,6 +4,7 @@ title: Markdown Formatting
 date: 2013-07-17
 comments: true
 sharing: true
+categories: ["Playground"]
 tags: [Markdown, Pandoc]
 ---
 

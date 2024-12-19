@@ -7,6 +7,7 @@ keywords:
   - "Safety"
   - "Track Cycling"
   - "Technology"
+categories: ["About"]
 weight: 15
 type: doc
 ---

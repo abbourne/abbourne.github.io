@@ -4,6 +4,8 @@ description: "An overview of Bill Bourne's site discussing cycling, technology a
 keywords:
   - "Hugo"
   - "Markdown"
+categories: ["About"]
+tags: ["Hugo", "Markdown"]
 weight: 3
 type: doc
 ---
