@@ -1,2 +1,5 @@
 .obsidian/
 public/
+.frontmatter/
+frontmatter.json
+
