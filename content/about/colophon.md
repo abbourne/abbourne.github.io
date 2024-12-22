@@ -5,7 +5,7 @@ keywords:
   - "Hugo"
   - "Markdown"
 categories: ["About"]
-tags: ["Hugo", "Markdown"]
+tags: ["Hugo", "Markdown", "Web"]
 weight: 3
 type: doc
 ---
